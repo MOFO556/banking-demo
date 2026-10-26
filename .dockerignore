@@ -1,0 +1,14 @@
+.git
+.env
+.dart_tool
+build
+.idea
+*.iml
+*.jks
+**/key.properties
+android
+ios
+linux
+macos
+windows
+coverage

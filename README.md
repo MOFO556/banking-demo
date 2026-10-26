@@ -18,6 +18,21 @@ Requires Flutter 3.47+ / Dart 3.13+.
 
 Drift on web needs `web/sqlite3.wasm` and `web/drift_worker.js` (already in the repo). Without them, opening the DB fails at onboarding.
 
+### Docker (web only)
+
+The root `Dockerfile` builds the web app and serves it with nginx. Set `PORT` in `.env` file. Compose publishes that port and passes it into nginx.
+
+```bash
+docker compose up --build
+```
+
+### Mobile pipelines
+
+Android and iOS are artifact that can be built in `.github/workflows/`.
+
+- **Android** (`.github/workflows/android.yml`) runs on Ubuntu and produces `app-release.apk`. Add repository secrets `ANDROID_KEYSTORE_BASE64`, `ANDROID_STORE_PASSWORD`, `ANDROID_KEY_PASSWORD`, and `ANDROID_KEY_ALIAS`.
+- **iOS** (`.github/workflows/ios.yml`) runs on a macOS runner with `flutter build ios --release --no-codesign`. An installable IPA needs Xcode, an Apple Developer certificate, and a provisioning profile.
+
 ### Auth notes
 
 - First launch: onboarding (name, @handle, PIN, market)

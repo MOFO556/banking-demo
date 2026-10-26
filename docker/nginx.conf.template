@@ -1,0 +1,21 @@
+server {
+    listen ${PORT};
+    server_name _;
+    root /usr/share/nginx/html;
+    index index.html;
+
+    # Drift's web worker uses SharedArrayBuffer.
+    add_header Cross-Origin-Opener-Policy same-origin always;
+    add_header Cross-Origin-Embedder-Policy require-corp always;
+
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+
+    location ~* \.wasm$ {
+        default_type application/wasm;
+        try_files $uri =404;
+        add_header Cross-Origin-Opener-Policy same-origin always;
+        add_header Cross-Origin-Embedder-Policy require-corp always;
+    }
+}

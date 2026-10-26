@@ -112,6 +112,9 @@ unlinked_spec.ds
 # Coverage
 coverage/
 
+# Local runtime config
+.env
+
 # Symbols
 app.*.symbols
 
