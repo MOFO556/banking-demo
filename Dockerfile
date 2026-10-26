@@ -1,6 +1,9 @@
 # Flutter web demo
 FROM debian:bookworm-slim AS build
 
+ENV DEBIAN_FRONTEND=noninteractive
+ENV TAR_OPTIONS=--no-same-owner
+
 RUN apt-get update && apt-get install -y --no-install-recommends \
     ca-certificates \
     curl \
@@ -8,22 +11,23 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     unzip \
     xz-utils \
     zip \
-    && rm -rf /var/lib/apt/lists/*
-
-ARG FLUTTER_VERSION=3.47.7
-RUN git clone --depth 1 --branch "${FLUTTER_VERSION}" \
-    https://github.com/flutter/flutter.git /flutter
-ENV PATH="/flutter/bin:/flutter/bin/cache/dart-sdk/bin:${PATH}"
-ENV PUB_CACHE=/root/.pub-cache
-
-ENV TAR_OPTIONS=--no-same-owner
-RUN printf '#!/bin/sh\nexec /usr/bin/tar --no-same-owner "$@"\n' \
-      > /usr/local/bin/tar \
+    && rm -rf /var/lib/apt/lists/* \
+    && printf '#!/bin/sh\nexec /usr/bin/tar --no-same-owner "$@"\n' \
+         > /usr/local/bin/tar \
     && chmod +x /usr/local/bin/tar
 
-RUN git config --global --add safe.directory /flutter \
+ARG FLUTTER_VERSION=3.47.7
+RUN curl -fsSL \
+      "https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_${FLUTTER_VERSION}-stable.tar.xz" \
+      -o /tmp/flutter.tar.xz \
+    && tar -xJf /tmp/flutter.tar.xz -C /opt \
+    && rm /tmp/flutter.tar.xz
+
+ENV PATH="/opt/flutter/bin:/opt/flutter/bin/cache/dart-sdk/bin:${PATH}"
+ENV PUB_CACHE=/root/.pub-cache
+RUN git config --global --add safe.directory /opt/flutter \
     && flutter config --no-analytics \
-    && flutter precache --web
+    && flutter --version
 
 WORKDIR /app
 
