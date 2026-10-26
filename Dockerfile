@@ -16,6 +16,11 @@ RUN git clone --depth 1 --branch "${FLUTTER_VERSION}" \
 ENV PATH="/flutter/bin:/flutter/bin/cache/dart-sdk/bin:${PATH}"
 ENV PUB_CACHE=/root/.pub-cache
 
+ENV TAR_OPTIONS=--no-same-owner
+RUN printf '#!/bin/sh\nexec /usr/bin/tar --no-same-owner "$@"\n' \
+      > /usr/local/bin/tar \
+    && chmod +x /usr/local/bin/tar
+
 RUN git config --global --add safe.directory /flutter \
     && flutter config --no-analytics \
     && flutter precache --web
