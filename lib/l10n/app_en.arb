@@ -1,0 +1,853 @@
+{
+  "@@locale": "en",
+  "appTitle": "MOFOBank",
+  "navHome": "Home",
+  "navMissions": "Missions",
+  "navAccounts": "Accounts",
+  "navWallet": "Wallet",
+  "settings": "Settings",
+  "settingsSession": "Session",
+  "settingsAppearance": "Appearance",
+  "settingsLanguage": "Language",
+  "settingsTheme": "Theme",
+  "themeDark": "Dark",
+  "themeLight": "Light",
+  "themeSystem": "System",
+  "langEn": "English",
+  "langRu": "Русский",
+  "langUz": "O'zbekcha",
+  "biometricUnlock": "Biometric unlock",
+  "biometricAvailable": "Fingerprint / face on lock screen (PIN still works)",
+  "biometricUnavailable": "Not available on this device",
+  "lockApp": "Lock app",
+  "createNewAccount": "Create new account",
+  "wipeSubtitle": "Wipe local data and re-onboard",
+  "wipeTitle": "Wipe this device profile?",
+  "wipeBody": "Missions, wallet, cards, and deposits on this device will be deleted.",
+  "cancel": "Cancel",
+  "wipe": "Wipe",
+  "shop": "Shop",
+  "boostStore": "Boost store",
+  "lockTitle": "MOFOBank",
+  "welcomeBack": "Welcome back",
+  "hiUser": "Hi, {name}",
+  "pinLabel": "PIN",
+  "pinHelper": "4-6 digits",
+  "unlock": "Unlock",
+  "useBiometrics": "Use biometrics",
+  "enableBiometricsHint": "Turn on biometrics in Settings for fingerprint / face unlock.",
+  "wrongPin": "Wrong PIN",
+  "enterPin": "Enter your PIN (4-6 digits)",
+  "bioCancelled": "Biometrics cancelled - enter PIN",
+  "onboardingBlurb": "Create your bank profile. Unlock next time with your PIN or biometrics.",
+  "displayName": "Display name",
+  "handleLabel": "MOFOBank handle (@)",
+  "handleHelper": "Used for P2P transfers",
+  "appPin": "App PIN",
+  "confirmPin": "Confirm PIN",
+  "confirmPinHelper": "Re-enter the same 4-6 digits",
+  "unlockWithBiometrics": "Unlock with biometrics",
+  "unlockWithBiometricsSub": "Fingerprint or face on supported phones",
+  "homeMarket": "Home market",
+  "openMyWallet": "Open my wallet",
+  "pinMustBe4or6": "PIN must be 4-6 digits",
+  "pinMismatch": "PIN confirmation does not match",
+  "missionSettled": "Mission settled",
+  "performance": "Performance",
+  "stake": "Stake",
+  "paidToWallet": "Paid to wallet",
+  "xp": "XP",
+  "continueBtn": "Continue",
+  "challengeProgress": "Challenge {current} / {total}",
+  "answeredCount": "{count} answered",
+  "previous": "Previous",
+  "next": "Next",
+  "hint": "Hint ({count})",
+  "retry": "Retry ({count})",
+  "settleMission": "Settle mission stake",
+  "missionCompleted": "Completed",
+  "missionCompletedHint": "Mission completed. Replay pays half the max stake — money only, no XP.",
+  "replayMission": "Replay for half stake",
+  "missionReplaySettled": "Replay settled",
+  "missionsReplayAvailable": "Replay · half stake",
+  "ledgerMissionReplay": "{title} replay ({percent}%)",
+  "@ledgerMissionReplay": {
+    "placeholders": {
+      "title": {"type": "String"},
+      "percent": {"type": "String"}
+    }
+  },
+
+  "walletTitle": "Wallet & RPG",
+  "balance": "Balance",
+  "balanceSubtitle": "Play money on a ledger.",
+  "ledger": "Ledger",
+  "ledgerSubtitle": "Credits in · debits out",
+  "level": "Level",
+  "efficiency": "Efficiency",
+  "efficiencyScore": "Efficiency score: {score}",
+  "missionsTitle": "Missions",
+  "accountsTitle": "Accounts",
+  "completeOnboarding": "Complete onboarding",
+  "errorPrefix": "Error: {error}",
+  "tealBadge": "badge",
+  "allMissionsComplete": "All missions complete - explore free-roam tools anytime.",
+  "quickTools": "Quick tools",
+  "missionCardsTitle": "Cards & money basics",
+  "missionCardsSubtitle": "How balances live, and how a bank card works front & back",
+  "missionDepositsTitle": "Deposits & tax",
+  "missionDepositsSubtitle": "APY, interest, and how countries withhold tax",
+  "missionFxTitle": "FX & foreign holdings",
+  "missionFxSubtitle": "Live rates, conversion, and bank markup",
+  "missionAtmTitle": "ATM cash",
+  "missionAtmSubtitle": "Withdraw real notes - large bills, fewest notes, or change",
+  "missionBudgetingTitle": "Budgeting & cashflow",
+  "missionBudgetingSubtitle": "Categories, income, expenses, and charts",
+  "missionTransfersTitle": "Transfers & IBAN",
+  "missionTransfersSubtitle": "Simulated P2P and validation UX",
+  "missionCreditTitle": "Credit vs debit",
+  "missionCreditSubtitle": "Interest and the minimum-payment trap",
+  "missionSecurityTitle": "Fraud & security",
+  "missionSecuritySubtitle": "PIN, freeze, and phishing hygiene",
+  "missionSavingsTitle": "Savings goals",
+  "missionSavingsSubtitle": "Goal pots and progress rings",
+  "marketRu": "Russia",
+  "marketUs": "United States",
+  "marketEu": "Eurozone",
+  "marketUk": "United Kingdom",
+  "marketUz": "Uzbekistan",
+  "marketJp": "Japan",
+  "marketTr": "Türkiye",
+  "marketKz": "Kazakhstan",
+  "@hiUser": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@challengeProgress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "@answeredCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@hint": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@retry": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@efficiencyScore": {
+    "placeholders": {
+      "score": {
+        "type": "String"
+      }
+    }
+  },
+  "@errorPrefix": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "quiz_cards_0_prompt": "What should a bank app store for a card at rest?",
+  "quiz_cards_0_opt0": "Full PAN + CVV in plaintext",
+  "quiz_cards_0_opt1": "A token / reference - never raw CVV",
+  "quiz_cards_0_opt2": "Only the cardholder selfie",
+  "quiz_cards_0_opt3": "The magnetic stripe image",
+  "quiz_cards_1_prompt": "Balances in MOFOBank are best stored as...",
+  "quiz_cards_1_opt0": "Floating-point dollars",
+  "quiz_cards_1_opt1": "Integer minor units (cents / kopecks)",
+  "quiz_cards_1_opt2": "Formatted strings like \"$12.00\"",
+  "quiz_cards_1_opt3": "Blockchain hashes only",
+  "quiz_cards_2_prompt": "Where does the CVV usually live on a physical card?",
+  "quiz_cards_2_opt0": "Front, next to the chip",
+  "quiz_cards_2_opt1": "Back, near the signature strip",
+  "quiz_cards_2_opt2": "Inside the chip only",
+  "quiz_cards_2_opt3": "Printed on the receipt",
+  "quiz_cards_3_prompt": "Why freeze a card in the app?",
+  "quiz_cards_3_opt0": "To earn more interest",
+  "quiz_cards_3_opt1": "To block new spend if lost or stolen",
+  "quiz_cards_3_opt2": "To change your IBAN",
+  "quiz_cards_3_opt3": "To reset FX markup",
+  "quiz_deposits_0_prompt": "Gross interest before tax is...",
+  "quiz_deposits_0_opt0": "Principal × APY",
+  "quiz_deposits_0_opt1": "Principal - APY",
+  "quiz_deposits_0_opt2": "Tax × APY",
+  "quiz_deposits_0_opt3": "Always zero",
+  "quiz_deposits_1_prompt": "Withholding tax on deposit interest means...",
+  "quiz_deposits_1_opt0": "The bank pays you more",
+  "quiz_deposits_1_opt1": "Part of interest is taken before you receive it",
+  "quiz_deposits_1_opt2": "Your principal is frozen",
+  "quiz_deposits_1_opt3": "FX rates get cheaper",
+  "quiz_deposits_2_prompt": "If two countries share the same APY, who nets more interest?",
+  "quiz_deposits_2_opt0": "The higher tax rate",
+  "quiz_deposits_2_opt1": "The lower tax rate",
+  "quiz_deposits_2_opt2": "Always the Eurozone",
+  "quiz_deposits_2_opt3": "It never differs",
+  "quiz_deposits_3_prompt": "APY is closest to...",
+  "quiz_deposits_3_opt0": "Annual percentage yield on the deposit",
+  "quiz_deposits_3_opt1": "A one-time ATM fee",
+  "quiz_deposits_3_opt2": "Your credit score",
+  "quiz_deposits_3_opt3": "The card CVV",
+  "quiz_fx_0_prompt": "Mid-market FX rate is...",
+  "quiz_fx_0_opt0": "The rate banks usually charge retail clients",
+  "quiz_fx_0_opt1": "A reference rate between buy and sell",
+  "quiz_fx_0_opt2": "Always equal to 1.0",
+  "quiz_fx_0_opt3": "Only used for cash ATMs",
+  "quiz_fx_1_prompt": "A bank markup / spread means you typically...",
+  "quiz_fx_1_opt0": "Get a better rate than mid-market",
+  "quiz_fx_1_opt1": "Pay worse than mid-market",
+  "quiz_fx_1_opt2": "Avoid all fees forever",
+  "quiz_fx_1_opt3": "Lock tax rates",
+  "quiz_fx_2_prompt": "Holding foreign currency can change value because...",
+  "quiz_fx_2_opt0": "Exchange rates move over time",
+  "quiz_fx_2_opt1": "PINs expire daily",
+  "quiz_fx_2_opt2": "IBANs reset monthly",
+  "quiz_fx_2_opt3": "Cards cannot freeze",
+  "quiz_fx_3_prompt": "If the app is offline, a good FX feature should...",
+  "quiz_fx_3_opt0": "Crash immediately",
+  "quiz_fx_3_opt1": "Use a cached or fallback rate and say so",
+  "quiz_fx_3_opt2": "Invent random rates silently",
+  "quiz_fx_3_opt3": "Delete your wallet",
+  "quiz_atm_0_prompt": "You cannot withdraw more cash than...",
+  "quiz_atm_0_opt0": "Your available wallet balance (and ATM limits)",
+  "quiz_atm_0_opt1": "Yesterday’s FX mid-market",
+  "quiz_atm_0_opt2": "Your credit APR × 12",
+  "quiz_atm_0_opt3": "The number of missions completed",
+  "quiz_atm_1_prompt": "“Large bills” at an ATM usually means...",
+  "quiz_atm_1_opt0": "Prefer higher-denomination notes",
+  "quiz_atm_1_opt1": "Only coins are dispensed",
+  "quiz_atm_1_opt2": "Always empty the cassette",
+  "quiz_atm_1_opt3": "Ignore your balance",
+  "quiz_atm_2_prompt": "Why might two ATM dispense options show different note mixes?",
+  "quiz_atm_2_opt0": "Different note-picking strategies / machine settings",
+  "quiz_atm_2_opt1": "Because IBANs differ",
+  "quiz_atm_2_opt2": "Because CVV changes",
+  "quiz_atm_2_opt3": "Random wallpaper themes",
+  "quiz_atm_3_prompt": "Cash withdrawals typically...",
+  "quiz_atm_3_opt0": "Increase your deposit APY",
+  "quiz_atm_3_opt1": "Reduce the money left in your account",
+  "quiz_atm_3_opt2": "Create foreign tax credits automatically",
+  "quiz_atm_3_opt3": "Unlock phishing links",
+  "quiz_budgeting_0_prompt": "Positive cashflow means...",
+  "quiz_budgeting_0_opt0": "Expenses exceed income",
+  "quiz_budgeting_0_opt1": "Income exceeds expenses",
+  "quiz_budgeting_0_opt2": "Balance is exactly zero",
+  "quiz_budgeting_0_opt3": "You only use credit",
+  "quiz_budgeting_1_prompt": "Categorizing spend helps you...",
+  "quiz_budgeting_1_opt0": "See where money goes",
+  "quiz_budgeting_1_opt1": "Change the mid-market FX feed",
+  "quiz_budgeting_1_opt2": "Reset your PIN automatically",
+  "quiz_budgeting_1_opt3": "Skip KYC forever",
+  "quiz_budgeting_2_prompt": "A budget chart is most useful when...",
+  "quiz_budgeting_2_opt0": "You have both income and expense entries",
+  "quiz_budgeting_2_opt1": "You hide all numbers",
+  "quiz_budgeting_2_opt2": "You only track one ATM fee",
+  "quiz_budgeting_2_opt3": "You never save",
+  "quiz_transfers_0_prompt": "A valid IBAN-like id usually starts with...",
+  "quiz_transfers_0_opt0": "Two letters (country) + check digits",
+  "quiz_transfers_0_opt1": "Only emoji",
+  "quiz_transfers_0_opt2": "Your CVV",
+  "quiz_transfers_0_opt3": "A random GUID with spaces only",
+  "quiz_transfers_1_prompt": "Before sending a transfer the app should check...",
+  "quiz_transfers_1_opt0": "Format + sufficient funds",
+  "quiz_transfers_1_opt1": "Only the weather",
+  "quiz_transfers_1_opt2": "Only your XP level",
+  "quiz_transfers_1_opt3": "Nothing - send immediately",
+  "quiz_transfers_2_prompt": "A ledger debit for a transfer should be...",
+  "quiz_transfers_2_opt0": "Negative amount out of your wallet",
+  "quiz_transfers_2_opt1": "Always positive interest",
+  "quiz_transfers_2_opt2": "Stored as a floating string",
+  "quiz_transfers_2_opt3": "Written to the CVV field",
+  "quiz_transfers_3_prompt": "Idempotency keys help prevent...",
+  "quiz_transfers_3_opt0": "Double-posting the same transfer",
+  "quiz_transfers_3_opt1": "Emoji flags on Windows",
+  "quiz_transfers_3_opt2": "Card flip animations",
+  "quiz_transfers_3_opt3": "Deposit APY",
+  "quiz_credit_0_prompt": "Paying only the minimum on a credit balance often...",
+  "quiz_credit_0_opt0": "Maximizes interest paid over time",
+  "quiz_credit_0_opt1": "Deletes the debt instantly",
+  "quiz_credit_0_opt2": "Raises deposit APY",
+  "quiz_credit_0_opt3": "Removes FX markup",
+  "quiz_credit_1_prompt": "Debit cards spend...",
+  "quiz_credit_1_opt0": "Your own account money",
+  "quiz_credit_1_opt1": "Only the bank’s money forever",
+  "quiz_credit_1_opt2": "Unrelated IBANs",
+  "quiz_credit_1_opt3": "Cached FX rates",
+  "quiz_credit_2_prompt": "APR on credit is closest to...",
+  "quiz_credit_2_opt0": "Annual cost of borrowing",
+  "quiz_credit_2_opt1": "Your card’s CVV",
+  "quiz_credit_2_opt2": "ATM cassette capacity",
+  "quiz_credit_2_opt3": "Mission XP",
+  "quiz_security_0_prompt": "A good way to store a PIN locally is...",
+  "quiz_security_0_opt0": "Plain text in a screenshot",
+  "quiz_security_0_opt1": "A salted hash - never the raw PIN",
+  "quiz_security_0_opt2": "Inside the card PAN field",
+  "quiz_security_0_opt3": "In the FX cache table",
+  "quiz_security_1_prompt": "A phishing SMS with a lookalike domain should be...",
+  "quiz_security_1_opt0": "Opened immediately",
+  "quiz_security_1_opt1": "Ignored / reported - do not tap",
+  "quiz_security_1_opt2": "Forwarded with your CVV",
+  "quiz_security_1_opt3": "Used to reset APY",
+  "quiz_security_2_prompt": "Freezing a card is useful when...",
+  "quiz_security_2_opt0": "You suspect loss or theft",
+  "quiz_security_2_opt1": "You want higher interest",
+  "quiz_security_2_opt2": "You change home markets",
+  "quiz_security_2_opt3": "You complete a budget pie chart",
+  "quiz_security_3_prompt": "MOFOBank never asks you for...",
+  "quiz_security_3_opt0": "Real bank credentials / KYC documents",
+  "quiz_security_3_opt1": "A display name",
+  "quiz_security_3_opt2": "A home market",
+  "quiz_security_3_opt3": "Quiz answers",
+  "quiz_savings_0_prompt": "Funding a savings pot typically...",
+  "quiz_savings_0_opt0": "Moves money from your wallet into the goal",
+  "quiz_savings_0_opt1": "Prints cash at the ATM",
+  "quiz_savings_0_opt2": "Increases FX markup",
+  "quiz_savings_0_opt3": "Unlocks phishing links",
+  "quiz_savings_1_prompt": "A progress ring on a goal shows...",
+  "quiz_savings_1_opt0": "Saved amount vs target",
+  "quiz_savings_1_opt1": "Your CVV",
+  "quiz_savings_1_opt2": "Live mid-market only",
+  "quiz_savings_1_opt3": "Credit APR",
+  "quiz_savings_2_prompt": "Why separate goal pots from spending money?",
+  "quiz_savings_2_opt0": "Makes intentions visible and harder to overspend casually",
+  "quiz_savings_2_opt1": "Deletes the ledger",
+  "quiz_savings_2_opt2": "Removes tax forever",
+  "quiz_savings_2_opt3": "Disables transfers",
+  "lockTooltip": "Lock",
+  "learnerDefault": "Learner",
+  "marketTaxSummary": "{code} · interest tax ~{rate}%",
+  "@marketTaxSummary": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      },
+      "rate": {
+        "type": "String"
+      }
+    }
+  },
+  "continueLearning": "Continue learning",
+  "continueLearningSubtitle": "Missions unlock in order; sandboxes stay open after intro.",
+  "card": "Card",
+  "fx": "FX",
+  "atm": "ATM",
+  "transfer": "Transfer",
+  "boosts": "Boosts",
+  "wipeAndCreate": "Wipe & create",
+  "yourPots": "Your pots",
+  "yourPotsSubtitle": "Wallet, cards, and deposits on this device.",
+  "cards": "Cards",
+  "cardLabel": "Card label",
+  "virtualDebit": "Virtual Debit",
+  "issueNewCard": "Issue new card",
+  "deposits": "Deposits",
+  "openDeposit": "Open deposit",
+  "transferMoney": "Transfer money",
+  "create": "Create",
+  "couldNotLoadCard": "Could not load card details",
+  "cardNotFound": "Card not found",
+  "loadingCardDetails": "Loading card details...",
+  "cardFrozen": "Card is frozen",
+  "tapCardToFlip": "Tap card to flip",
+  "unfreezeCard": "Unfreeze card",
+  "freezeCard": "Freeze card",
+  "yourCard": "Your card",
+  "yourCardSubtitle": "Flip to see the back. Details stay private until shown.",
+  "pickDepositProduct": "Pick a product · 1 monthly + 2-3 daily rate styles",
+  "depositProducts": "Deposit products",
+  "fundFrom": "Fund from",
+  "principalMajor": "Principal (major)",
+  "pickMofoUser": "Pick a MOFOBank user",
+  "pickDestination": "Pick a destination",
+  "transferSubtitle": "Move money between your pots or to another MOFOBank user",
+  "sendTransfer": "Send transfer",
+  "from": "From",
+  "sourceAccount": "Source account",
+  "toMofoUser": "To MOFOBank user",
+  "betweenMyAccounts": "Between my accounts",
+  "recipient": "Recipient",
+  "destination": "Destination",
+  "amountMajor": "Amount (major)",
+  "budgeting": "Budgeting",
+  "incomeExpenses": "Income {income} · Expenses {expenses}",
+  "@incomeExpenses": {
+    "placeholders": {
+      "income": {
+        "type": "String"
+      },
+      "expenses": {
+        "type": "String"
+      }
+    }
+  },
+  "cashflow": "Cashflow",
+  "cashflowSubtitle": "Add categories - aim for income > expenses.",
+  "inLabel": "In",
+  "outLabel": "Out",
+  "category": "Category",
+  "amountCurrencyMajor": "Amount ({code} major)",
+  "@amountCurrencyMajor": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "income": "Income",
+  "expense": "Expense",
+  "addItem": "Add item",
+  "loading": "Loading...",
+  "hideDetails": "Hide details",
+  "showCardNumber": "Show card number",
+  "frozen": "FROZEN",
+  "cvvWarning": "CVV - never share it.",
+  "openAccountsFirst": "Open Accounts to issue a card first",
+  "loadingYourCard": "Loading your card...",
+  "exploreCardChallenge": "Explore the card, then finish the challenge",
+  "yourDebitCard": "Your debit card",
+  "yourDebitCardSubtitle": "Balances live as integer minor units. Tap the card to flip.",
+  "credit": "Credit",
+  "interestPaid": "Interest paid: {amount}",
+  "@interestPaid": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "minimumPaymentTrap": "Minimum-payment trap",
+  "minimumPaymentTrapSubtitle": "Debit spends yours. Credit borrows - interest accrues.",
+  "creditStartSummary": "Start {amount} @ 22% APR, ~2%/mo minimum",
+  "@creditStartSummary": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "paidOffMonths": "Paid off in {count} months",
+  "@paidOffMonths": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "stillOpenMonths": "Still open after {count} months",
+  "@stillOpenMonths": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "depositsAndTax": "Deposits & tax",
+  "compareTaxDrag": "Compare tax drag, then finish the challenge",
+  "marketPickedQuiz": "Market picked · answer every quiz question",
+  "lodgementSandbox": "Lodgement sandbox",
+  "lodgementSandboxSubtitle": "Same principal & APY; only withholding tax differs by country.",
+  "principalApy": "Principal: {amount} @ {apy}% APY",
+  "@principalApy": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "apy": {
+        "type": "String"
+      }
+    }
+  },
+  "homeNetTax": "Home net {net} (tax {tax})",
+  "@homeNetTax": {
+    "placeholders": {
+      "net": {
+        "type": "String"
+      },
+      "tax": {
+        "type": "String"
+      }
+    }
+  },
+  "lowestTaxDrag": "Lowest tax drag",
+  "lowestTaxDragSubtitle": "Which market leaves the highest net interest?",
+  "couldNotLoadRate": "Could not load exchange rate",
+  "fxSpreadDescription": "FX conversion spread ({pair})",
+  "@fxSpreadDescription": {
+    "placeholders": {
+      "pair": {
+        "type": "String"
+      }
+    }
+  },
+  "updatingRate": "Updating exchange rate...",
+  "cachedRate": "Cached rate",
+  "liveRate": "Live rate",
+  "exchange": "Exchange",
+  "exchangeSubtitle": "Convert between currencies. The bank rate includes a small spread.",
+  "amountCurrency": "Amount ({code})",
+  "@amountCurrency": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "convertTo": "Convert to",
+  "cashDispensed": "Cash dispensed - finish the challenge to settle",
+  "availableAmount": "Available {amount}",
+  "@availableAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "dispense": "Dispense",
+  "settle": "Settle",
+  "withdrawCash": "Withdraw cash",
+  "withdrawCashSubtitle": "Pick an amount from your wallet. The ATM offers different note packs - large bills, fewest notes, or smaller notes for change.",
+  "notesInCassette": "Notes in cassette: {notes} {code}",
+  "@notesInCassette": {
+    "placeholders": {
+      "notes": {
+        "type": "String"
+      },
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "multiplesMax": "Multiples of {step} - max {max}",
+  "@multiplesMax": {
+    "placeholders": {
+      "step": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "largeBills": "Large bills",
+  "largeBillsSubtitle": "Fast pick - highest denominations first",
+  "fewestNotes": "Fewest notes",
+  "fewestNotesSubtitle": "Optimal cassette mix (may take longer to compute)",
+  "smallerNotes": "Smaller notes",
+  "smallerNotesSubtitle": "Useful when you want change for spending",
+  "noteCountBreakdown": "{count} notes - {breakdown}",
+  "@noteCountBreakdown": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "breakdown": {
+        "type": "String"
+      }
+    }
+  },
+  "cannotMakeAmount": "Cannot make this amount with this pack",
+  "security": "Security",
+  "securityInitialStatus": "Set a PIN, verify it, try freeze",
+  "pinAndFreeze": "PIN & freeze",
+  "pinAndFreezeSubtitle": "PIN is hashed locally. Freeze is a local card flag.",
+  "pinSaved": "PIN saved (hashed)",
+  "savePin": "Save PIN",
+  "verifyPin": "Verify PIN",
+  "pinVerified": "PIN verified",
+  "cardUnfrozen": "Card unfrozen",
+  "transfers": "Transfers",
+  "p2pTransfer": "P2P transfer",
+  "transferPosted": "Transfer posted to ledger",
+  "validateThenSend": "Validate IBAN + amount, then send",
+  "send": "Send",
+  "simulatedP2p": "Simulated P2P",
+  "simulatedP2pSubtitle": "IBAN-like validation + ledger debit.",
+  "beneficiaryIban": "Beneficiary IBAN",
+  "inventory": "Inventory",
+  "inventorySubtitle": "Boosts are optional. Core lessons stay free.",
+  "inventorySummary": "Hints: {hints} · Retries: {retries} · Badge: {badge}",
+  "@inventorySummary": {
+    "placeholders": {
+      "hints": {
+        "type": "int"
+      },
+      "retries": {
+        "type": "int"
+      },
+      "badge": {
+        "type": "String"
+      }
+    }
+  },
+  "on": "on",
+  "off": "off",
+  "buy": "Buy",
+  "owned": "Owned",
+  "purchased": "Purchased {title}",
+  "@purchased": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "countryFlag": "{code} flag",
+  "@countryFlag": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "confirmIdentity": "Confirm it's you",
+  "devicePinHelper": "4-6 digits",
+  "savings": "Savings",
+  "savingsGoals": "Savings goals",
+  "savingsGoalsSubtitle": "Fund from wallet - progress rings.",
+  "goalName": "Goal name",
+  "targetCurrencyMajor": "Target ({code} major)",
+  "@targetCurrencyMajor": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "createGoal": "Create goal",
+  "fundAmount": "Fund +{amount}",
+  "@fundAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "setPinLabel": "Set 4-6-digit PIN",
+  "verify": "Verify",
+  "freezePrimaryCard": "Freeze primary card",
+  "goalFunded": "Goal funded from wallet",
+  "createThenFund": "Create a pot, then fund it",
+  "goalPots": "Goal pots",
+  "emergencyPot": "Emergency pot",
+  "fundGoalDescription": "Fund goal: {title}",
+  "@fundGoalDescription": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "atmCashDescription": "ATM cash {pack} · {notes}",
+  "@atmCashDescription": {
+    "placeholders": {
+      "pack": {
+        "type": "String"
+      },
+      "notes": {
+        "type": "String"
+      }
+    }
+  },
+  "showingCachedRate": "Showing last known rate",
+  "showingEstimatedRate": "Estimated rate - nothing saved yet",
+  "ratesReady": "Rates ready",
+  "includesBankSpread": "Includes bank spread",
+  "youReceive": "You receive ≈ {amount}",
+  "@youReceive": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "walletAmount": "Wallet: {amount}",
+  "@walletAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "cvvLabel": "CVV",
+  "boostHintTitle": "Hint pack",
+  "boostHintDescription": "Highlights the correct quiz answer once (3 hints).",
+  "boostRetryTitle": "Quiz retry",
+  "boostRetryDescription": "Clears your current quiz answers to try again (1 use).",
+  "boostBadgeTitle": "Teal badge",
+  "boostBadgeDescription": "Cosmetic badge on Home.",
+  "depositFlexTitle": "Flex Daily",
+  "depositFlexSubtitle": "Spend-friendly pot · interest every day",
+  "depositSaverTitle": "Saver Daily",
+  "depositSaverSubtitle": "Higher daily rate · still liquid",
+  "depositTermTitle": "Term Monthly",
+  "depositTermSubtitle": "Classic term-style · paid monthly",
+  "depositPremiumTitle": "Premium Monthly",
+  "depositPremiumSubtitle": "Best monthly rate · educational demo",
+  "ratePerDay": "{pct}% / day",
+  "@ratePerDay": {
+    "placeholders": {
+      "pct": {
+        "type": "String"
+      }
+    }
+  },
+  "ratePerMonth": "{pct}% / month",
+  "@ratePerMonth": {
+    "placeholders": {
+      "pct": {
+        "type": "String"
+      }
+    }
+  },
+  "errorGeneric": "Something went wrong: {error}",
+  "@errorGeneric": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgerWelcome": "Welcome balance",
+  "ledgerDepositOpened": "Deposit opened",
+  "ledgerOpenDeposit": "Open deposit: {title}",
+  "@ledgerOpenDeposit": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgerAccrued": "Accrued {title}",
+  "@ledgerAccrued": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgerLevelStipend": "Level {level} stipend",
+  "@ledgerLevelStipend": {
+    "placeholders": {
+      "level": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgerBoost": "Boost: {title}",
+  "@ledgerBoost": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgerTransferOut": "Transfer out",
+  "ledgerTransferIn": "Transfer in",
+  "ledgerP2pTo": "P2P to @{handle}",
+  "@ledgerP2pTo": {
+    "placeholders": {
+      "handle": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgerMissionSettle": "{title} settlement ({percent}%)",
+  "@ledgerMissionSettle": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgerFxSpread": "FX conversion spread ({pair})",
+  "@ledgerFxSpread": {
+    "placeholders": {
+      "pair": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgerAtmCash": "ATM cash {pack} · {notes}",
+  "@ledgerAtmCash": {
+    "placeholders": {
+      "pack": {
+        "type": "String"
+      },
+      "notes": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgerGoalFund": "Fund goal: {title}",
+  "@ledgerGoalFund": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgerTypeStipend": "Stipend",
+  "ledgerTypeMission": "Mission",
+  "ledgerTypeTransferOut": "Transfer out",
+  "ledgerTypeTransferIn": "Transfer in",
+  "ledgerTypeFx": "FX",
+  "ledgerTypeAtm": "ATM",
+  "ledgerTypeBoost": "Boost",
+  "ledgerTypeGoal": "Goal",
+  "ledgerTypeDepositInterest": "Deposit interest",
+  "ledgerTypeCreditCharge": "Credit charge",
+  "ledgerTypeCreditPayment": "Credit payment",
+  "ledgerTypeOther": "Other",
+  "accountMainWallet": "Main wallet",
+  "cardDebitPrimary": "Debit · Primary",
+  "errorNotOnboarded": "Finish onboarding first",
+  "errorPrincipalPositive": "Principal must be positive",
+  "errorAmountPositive": "Amount must be positive",
+  "errorInsufficientFunds": "Insufficient funds",
+  "errorInsufficientFundsBoost": "Insufficient funds for this boost",
+  "errorChooseDifferentAccounts": "Choose different accounts",
+  "errorCrossCurrency": "Cross-currency transfer is not supported in this demo",
+  "errorSourceCardFrozen": "Source card is frozen",
+  "errorUserNotFound": "MOFOBank user @{handle} not found",
+  "@errorUserNotFound": {
+    "placeholders": {
+      "handle": {
+        "type": "String"
+      }
+    }
+  },
+  "errorCardTokenNotFound": "Card details were not found in the vault",
+  "errorInvalidDepositProduct": "Unknown deposit product",
+  "errorInvalidAccountNameKey": "Unknown account label key",
+  "errorInvalidLedgerType": "Unknown ledger type",
+  "errorInvalidLedgerDescription": "Unknown ledger description key",
+  "errorInvalidAtmPack": "Unknown ATM note pack",
+  "errorCurrencyMismatch": "Currency mismatch",
+  "errorUnknown": "Something went wrong"
+}

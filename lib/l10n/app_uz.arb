@@ -1,0 +1,853 @@
+{
+  "@@locale": "uz",
+  "appTitle": "MOFOBank",
+  "navHome": "Bosh sahifa",
+  "navMissions": "Missiyalar",
+  "navAccounts": "Hisoblar",
+  "navWallet": "Hamyon",
+  "settings": "Sozlamalar",
+  "settingsSession": "Sessiya",
+  "settingsAppearance": "Ko‘rinish",
+  "settingsLanguage": "Til",
+  "settingsTheme": "Mavzu",
+  "themeDark": "Qorong‘u",
+  "themeLight": "Yorug‘",
+  "themeSystem": "Tizim",
+  "langEn": "English",
+  "langRu": "Русский",
+  "langUz": "O'zbekcha",
+  "biometricUnlock": "Biometriya bilan kirish",
+  "biometricAvailable": "Qulf ekranida barmoq / yuz (PIN ham ishlaydi)",
+  "biometricUnavailable": "Bu qurilmada mavjud emas",
+  "lockApp": "Ilovani qulflash",
+  "createNewAccount": "Yangi hisob yaratish",
+  "wipeSubtitle": "Mahalliy ma’lumotlarni o‘chirish va qayta onboarding",
+  "wipeTitle": "Qurilmadagi profilni o‘chirish?",
+  "wipeBody": "Missiyalar, hamyon, kartalar va omonatlar o‘chiriladi.",
+  "cancel": "Bekor qilish",
+  "wipe": "O‘chirish",
+  "shop": "Do‘kon",
+  "boostStore": "Boost do‘koni",
+  "lockTitle": "MOFOBank",
+  "welcomeBack": "Xush kelibsiz",
+  "hiUser": "Salom, {name}",
+  "pinLabel": "PIN",
+  "pinHelper": "4-6 raqam",
+  "unlock": "Ochish",
+  "useBiometrics": "Biometriya",
+  "enableBiometricsHint": "Barmoq / yuz uchun Sozlamalarda biometriyani yoqing.",
+  "wrongPin": "Noto‘g‘ri PIN",
+  "enterPin": "PIN kiriting (4-6 raqam)",
+  "bioCancelled": "Biometriya bekor qilindi - PIN kiriting",
+  "onboardingBlurb": "O‘quv bank profilini yarating. Keyingi safar PIN yoki biometriya bilan.",
+  "displayName": "Ko‘rsatiladigan ism",
+  "handleLabel": "MOFOBank laqab (@)",
+  "handleHelper": "P2P o‘tkazmalar uchun",
+  "appPin": "Ilova PIN",
+  "confirmPin": "PIN ni tasdiqlang",
+  "confirmPinHelper": "Xuddi shu 4-6 raqamni qayta kiritingg",
+  "unlockWithBiometrics": "Biometriya bilan ochish",
+  "unlockWithBiometricsSub": "Qo‘llab-quvvatlanadigan telefonlarda barmoq yoki yuz",
+  "homeMarket": "Uy bozori",
+  "openMyWallet": "Hamyonni ochish",
+  "pinMustBe4or6": "PIN 4-6 raqam bo‘lishi kerak",
+  "pinMismatch": "PIN tasdiqi mos kelmadi",
+  "missionSettled": "Missiya yakunlandi",
+  "performance": "Natija",
+  "stake": "Stavka",
+  "paidToWallet": "Hamyonga tushdi",
+  "xp": "XP",
+  "continueBtn": "Davom etish",
+  "challengeProgress": "Savol {current} / {total}",
+  "answeredCount": "Javob berildi: {count}",
+  "previous": "Oldingi",
+  "next": "Keyingi",
+  "hint": "Maslahat ({count})",
+  "retry": "Qayta ({count})",
+  "settleMission": "Missiya stavkasini yopish",
+  "missionCompleted": "Yakunlangan",
+  "missionCompletedHint": "Vazifa bajarildi. Qayta o‘ynash — maksimal stavkaning yarmi, faqat pul, XP yo‘q.",
+  "replayMission": "Yarim stavka uchun qayta",
+  "missionReplaySettled": "Qayta o‘yin hisoblandi",
+  "missionsReplayAvailable": "Qayta · yarim stavka",
+  "ledgerMissionReplay": "{title} qayta ({percent}%)",
+  "@ledgerMissionReplay": {
+    "placeholders": {
+      "title": {"type": "String"},
+      "percent": {"type": "String"}
+    }
+  },
+
+  "walletTitle": "Hamyon va RPG",
+  "balance": "Balans",
+  "balanceSubtitle": "Hisobdagi pul.",
+  "ledger": "Tranzaksiyalar",
+  "ledgerSubtitle": "Kredit · debet",
+  "level": "Daraja",
+  "efficiency": "Samaradorlik",
+  "efficiencyScore": "Samaradorlik: {score}",
+  "missionsTitle": "Missiyalar",
+  "accountsTitle": "Hisoblar",
+  "completeOnboarding": "Onboardingni yakunlang",
+  "errorPrefix": "Xato: {error}",
+  "tealBadge": "nishon",
+  "allMissionsComplete": "Barcha missiyalar tugadi - erkin vositalar doim ochiq.",
+  "quickTools": "Tezkor vositalar",
+  "missionCardsTitle": "Kartalar va pul asoslari",
+  "missionCardsSubtitle": "Balanslar qanday saqlanadi va karta qanday ishlaydi",
+  "missionDepositsTitle": "Omonatlar va soliq",
+  "missionDepositsSubtitle": "APY, foiz va mamlakatlar bo‘yicha soliq",
+  "missionFxTitle": "FX va valyuta",
+  "missionFxSubtitle": "Jonli kurslar, konvertatsiya va bank ustamasi",
+  "missionAtmTitle": "Bankomat naqd",
+  "missionAtmSubtitle": "Kupyuralar - katta, kam yoki mayda",
+  "missionBudgetingTitle": "Byudjet va cashflow",
+  "missionBudgetingSubtitle": "Toifalar, daromad, xarajat va grafiklar",
+  "missionTransfersTitle": "O‘tkazmalar va IBAN",
+  "missionTransfersSubtitle": "O‘quv P2P va validatsiya UX",
+  "missionCreditTitle": "Kredit vs debet",
+  "missionCreditSubtitle": "Foiz va minimal to‘lov tuzog‘i",
+  "missionSecurityTitle": "Firibgarlik va xavfsizlik",
+  "missionSecuritySubtitle": "PIN, muzlatish va fishing",
+  "missionSavingsTitle": "Jamg‘arma maqsadlari",
+  "missionSavingsSubtitle": "Maqsad idishlari va progress",
+  "marketRu": "Rossiya",
+  "marketUs": "AQSH",
+  "marketEu": "Yevrozona",
+  "marketUk": "Birlashgan Qirollik",
+  "marketUz": "O‘zbekiston",
+  "marketJp": "Yaponiya",
+  "marketTr": "Turkiya",
+  "marketKz": "Qozog‘iston",
+  "@hiUser": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@challengeProgress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "@answeredCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@hint": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@retry": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@efficiencyScore": {
+    "placeholders": {
+      "score": {
+        "type": "String"
+      }
+    }
+  },
+  "@errorPrefix": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "quiz_cards_0_prompt": "What should a bank app store for a card at rest?",
+  "quiz_cards_0_opt0": "Full PAN + CVV in plaintext",
+  "quiz_cards_0_opt1": "A token / reference - never raw CVV",
+  "quiz_cards_0_opt2": "Only the cardholder selfie",
+  "quiz_cards_0_opt3": "The magnetic stripe image",
+  "quiz_cards_1_prompt": "Balances in MOFOBank are best stored as...",
+  "quiz_cards_1_opt0": "Floating-point dollars",
+  "quiz_cards_1_opt1": "Integer minor units (cents / kopecks)",
+  "quiz_cards_1_opt2": "Formatted strings like \"$12.00\"",
+  "quiz_cards_1_opt3": "Blockchain hashes only",
+  "quiz_cards_2_prompt": "Where does the CVV usually live on a physical card?",
+  "quiz_cards_2_opt0": "Front, next to the chip",
+  "quiz_cards_2_opt1": "Back, near the signature strip",
+  "quiz_cards_2_opt2": "Inside the chip only",
+  "quiz_cards_2_opt3": "Printed on the receipt",
+  "quiz_cards_3_prompt": "Why freeze a card in the app?",
+  "quiz_cards_3_opt0": "To earn more interest",
+  "quiz_cards_3_opt1": "To block new spend if lost or stolen",
+  "quiz_cards_3_opt2": "To change your IBAN",
+  "quiz_cards_3_opt3": "To reset FX markup",
+  "quiz_deposits_0_prompt": "Gross interest before tax is...",
+  "quiz_deposits_0_opt0": "Principal × APY",
+  "quiz_deposits_0_opt1": "Principal - APY",
+  "quiz_deposits_0_opt2": "Tax × APY",
+  "quiz_deposits_0_opt3": "Always zero",
+  "quiz_deposits_1_prompt": "Withholding tax on deposit interest means...",
+  "quiz_deposits_1_opt0": "The bank pays you more",
+  "quiz_deposits_1_opt1": "Part of interest is taken before you receive it",
+  "quiz_deposits_1_opt2": "Your principal is frozen",
+  "quiz_deposits_1_opt3": "FX rates get cheaper",
+  "quiz_deposits_2_prompt": "If two countries share the same APY, who nets more interest?",
+  "quiz_deposits_2_opt0": "The higher tax rate",
+  "quiz_deposits_2_opt1": "The lower tax rate",
+  "quiz_deposits_2_opt2": "Always the Eurozone",
+  "quiz_deposits_2_opt3": "It never differs",
+  "quiz_deposits_3_prompt": "APY is closest to...",
+  "quiz_deposits_3_opt0": "Annual percentage yield on the deposit",
+  "quiz_deposits_3_opt1": "A one-time ATM fee",
+  "quiz_deposits_3_opt2": "Your credit score",
+  "quiz_deposits_3_opt3": "The card CVV",
+  "quiz_fx_0_prompt": "Mid-market FX rate is...",
+  "quiz_fx_0_opt0": "The rate banks usually charge retail clients",
+  "quiz_fx_0_opt1": "A reference rate between buy and sell",
+  "quiz_fx_0_opt2": "Always equal to 1.0",
+  "quiz_fx_0_opt3": "Only used for cash ATMs",
+  "quiz_fx_1_prompt": "A bank markup / spread means you typically...",
+  "quiz_fx_1_opt0": "Get a better rate than mid-market",
+  "quiz_fx_1_opt1": "Pay worse than mid-market",
+  "quiz_fx_1_opt2": "Avoid all fees forever",
+  "quiz_fx_1_opt3": "Lock tax rates",
+  "quiz_fx_2_prompt": "Holding foreign currency can change value because...",
+  "quiz_fx_2_opt0": "Exchange rates move over time",
+  "quiz_fx_2_opt1": "PINs expire daily",
+  "quiz_fx_2_opt2": "IBANs reset monthly",
+  "quiz_fx_2_opt3": "Cards cannot freeze",
+  "quiz_fx_3_prompt": "If the app is offline, a good FX feature should...",
+  "quiz_fx_3_opt0": "Crash immediately",
+  "quiz_fx_3_opt1": "Use a cached or fallback rate and say so",
+  "quiz_fx_3_opt2": "Invent random rates silently",
+  "quiz_fx_3_opt3": "Delete your wallet",
+  "quiz_atm_0_prompt": "You cannot withdraw more cash than...",
+  "quiz_atm_0_opt0": "Your available wallet balance (and ATM limits)",
+  "quiz_atm_0_opt1": "Yesterday’s FX mid-market",
+  "quiz_atm_0_opt2": "Your credit APR × 12",
+  "quiz_atm_0_opt3": "The number of missions completed",
+  "quiz_atm_1_prompt": "“Large bills” at an ATM usually means...",
+  "quiz_atm_1_opt0": "Prefer higher-denomination notes",
+  "quiz_atm_1_opt1": "Only coins are dispensed",
+  "quiz_atm_1_opt2": "Always empty the cassette",
+  "quiz_atm_1_opt3": "Ignore your balance",
+  "quiz_atm_2_prompt": "Why might two ATM dispense options show different note mixes?",
+  "quiz_atm_2_opt0": "Different note-picking strategies / machine settings",
+  "quiz_atm_2_opt1": "Because IBANs differ",
+  "quiz_atm_2_opt2": "Because CVV changes",
+  "quiz_atm_2_opt3": "Random wallpaper themes",
+  "quiz_atm_3_prompt": "Cash withdrawals typically...",
+  "quiz_atm_3_opt0": "Increase your deposit APY",
+  "quiz_atm_3_opt1": "Reduce the money left in your account",
+  "quiz_atm_3_opt2": "Create foreign tax credits automatically",
+  "quiz_atm_3_opt3": "Unlock phishing links",
+  "quiz_budgeting_0_prompt": "Positive cashflow means...",
+  "quiz_budgeting_0_opt0": "Expenses exceed income",
+  "quiz_budgeting_0_opt1": "Income exceeds expenses",
+  "quiz_budgeting_0_opt2": "Balance is exactly zero",
+  "quiz_budgeting_0_opt3": "You only use credit",
+  "quiz_budgeting_1_prompt": "Categorizing spend helps you...",
+  "quiz_budgeting_1_opt0": "See where money goes",
+  "quiz_budgeting_1_opt1": "Change the mid-market FX feed",
+  "quiz_budgeting_1_opt2": "Reset your PIN automatically",
+  "quiz_budgeting_1_opt3": "Skip KYC forever",
+  "quiz_budgeting_2_prompt": "A budget chart is most useful when...",
+  "quiz_budgeting_2_opt0": "You have both income and expense entries",
+  "quiz_budgeting_2_opt1": "You hide all numbers",
+  "quiz_budgeting_2_opt2": "You only track one ATM fee",
+  "quiz_budgeting_2_opt3": "You never save",
+  "quiz_transfers_0_prompt": "A valid IBAN-like id usually starts with...",
+  "quiz_transfers_0_opt0": "Two letters (country) + check digits",
+  "quiz_transfers_0_opt1": "Only emoji",
+  "quiz_transfers_0_opt2": "Your CVV",
+  "quiz_transfers_0_opt3": "A random GUID with spaces only",
+  "quiz_transfers_1_prompt": "Before sending a transfer the app should check...",
+  "quiz_transfers_1_opt0": "Format + sufficient funds",
+  "quiz_transfers_1_opt1": "Only the weather",
+  "quiz_transfers_1_opt2": "Only your XP level",
+  "quiz_transfers_1_opt3": "Nothing - send immediately",
+  "quiz_transfers_2_prompt": "A ledger debit for a transfer should be...",
+  "quiz_transfers_2_opt0": "Negative amount out of your wallet",
+  "quiz_transfers_2_opt1": "Always positive interest",
+  "quiz_transfers_2_opt2": "Stored as a floating string",
+  "quiz_transfers_2_opt3": "Written to the CVV field",
+  "quiz_transfers_3_prompt": "Idempotency keys help prevent...",
+  "quiz_transfers_3_opt0": "Double-posting the same transfer",
+  "quiz_transfers_3_opt1": "Emoji flags on Windows",
+  "quiz_transfers_3_opt2": "Card flip animations",
+  "quiz_transfers_3_opt3": "Deposit APY",
+  "quiz_credit_0_prompt": "Paying only the minimum on a credit balance often...",
+  "quiz_credit_0_opt0": "Maximizes interest paid over time",
+  "quiz_credit_0_opt1": "Deletes the debt instantly",
+  "quiz_credit_0_opt2": "Raises deposit APY",
+  "quiz_credit_0_opt3": "Removes FX markup",
+  "quiz_credit_1_prompt": "Debit cards spend...",
+  "quiz_credit_1_opt0": "Your own account money",
+  "quiz_credit_1_opt1": "Only the bank’s money forever",
+  "quiz_credit_1_opt2": "Unrelated IBANs",
+  "quiz_credit_1_opt3": "Cached FX rates",
+  "quiz_credit_2_prompt": "APR on credit is closest to...",
+  "quiz_credit_2_opt0": "Annual cost of borrowing",
+  "quiz_credit_2_opt1": "Your card’s CVV",
+  "quiz_credit_2_opt2": "ATM cassette capacity",
+  "quiz_credit_2_opt3": "Mission XP",
+  "quiz_security_0_prompt": "A good way to store a PIN locally is...",
+  "quiz_security_0_opt0": "Plain text in a screenshot",
+  "quiz_security_0_opt1": "A salted hash - never the raw PIN",
+  "quiz_security_0_opt2": "Inside the card PAN field",
+  "quiz_security_0_opt3": "In the FX cache table",
+  "quiz_security_1_prompt": "A phishing SMS with a lookalike domain should be...",
+  "quiz_security_1_opt0": "Opened immediately",
+  "quiz_security_1_opt1": "Ignored / reported - do not tap",
+  "quiz_security_1_opt2": "Forwarded with your CVV",
+  "quiz_security_1_opt3": "Used to reset APY",
+  "quiz_security_2_prompt": "Freezing a card is useful when...",
+  "quiz_security_2_opt0": "You suspect loss or theft",
+  "quiz_security_2_opt1": "You want higher interest",
+  "quiz_security_2_opt2": "You change home markets",
+  "quiz_security_2_opt3": "You complete a budget pie chart",
+  "quiz_security_3_prompt": "MOFOBank never asks you for...",
+  "quiz_security_3_opt0": "Real bank credentials / KYC documents",
+  "quiz_security_3_opt1": "A display name",
+  "quiz_security_3_opt2": "A home market",
+  "quiz_security_3_opt3": "Quiz answers",
+  "quiz_savings_0_prompt": "Funding a savings pot typically...",
+  "quiz_savings_0_opt0": "Moves money from your wallet into the goal",
+  "quiz_savings_0_opt1": "Prints cash at the ATM",
+  "quiz_savings_0_opt2": "Increases FX markup",
+  "quiz_savings_0_opt3": "Unlocks phishing links",
+  "quiz_savings_1_prompt": "A progress ring on a goal shows...",
+  "quiz_savings_1_opt0": "Saved amount vs target",
+  "quiz_savings_1_opt1": "Your CVV",
+  "quiz_savings_1_opt2": "Live mid-market only",
+  "quiz_savings_1_opt3": "Credit APR",
+  "quiz_savings_2_prompt": "Why separate goal pots from spending money?",
+  "quiz_savings_2_opt0": "Makes intentions visible and harder to overspend casually",
+  "quiz_savings_2_opt1": "Deletes the ledger",
+  "quiz_savings_2_opt2": "Removes tax forever",
+  "quiz_savings_2_opt3": "Disables transfers",
+  "lockTooltip": "Qulflash",
+  "learnerDefault": "O‘quvchi",
+  "marketTaxSummary": "{code} · foiz solig‘i ~{rate}%",
+  "@marketTaxSummary": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      },
+      "rate": {
+        "type": "String"
+      }
+    }
+  },
+  "continueLearning": "O‘rganishni davom ettirish",
+  "continueLearningSubtitle": "Missiyalar tartib bilan ochiladi; sinov vositalari ochiq qoladi.",
+  "card": "Karta",
+  "fx": "Valyuta",
+  "atm": "Bankomat",
+  "transfer": "O‘tkazma",
+  "boosts": "Boostlar",
+  "wipeAndCreate": "O‘chirib, yaratish",
+  "yourPots": "Hisoblaringiz",
+  "yourPotsSubtitle": "Bu qurilmadagi hamyon, kartalar va omonatlar.",
+  "cards": "Kartalar",
+  "cardLabel": "Karta nomi",
+  "virtualDebit": "Virtual debet",
+  "issueNewCard": "Yangi karta chiqarish",
+  "deposits": "Omonatlar",
+  "openDeposit": "Omonat ochish",
+  "transferMoney": "Pul o‘tkazish",
+  "create": "Yaratish",
+  "couldNotLoadCard": "Karta ma’lumotlarini yuklab bo‘lmadi",
+  "cardNotFound": "Karta topilmadi",
+  "loadingCardDetails": "Karta ma’lumotlari yuklanmoqda...",
+  "cardFrozen": "Karta muzlatilgan",
+  "tapCardToFlip": "Kartani aylantirish uchun bosing",
+  "unfreezeCard": "Kartani eritish",
+  "freezeCard": "Kartani muzlatish",
+  "yourCard": "Kartangiz",
+  "yourCardSubtitle": "Orqa tomonini ko‘rish uchun aylantiring. Ma’lumotlar ko‘rsatilguncha maxfiy.",
+  "pickDepositProduct": "Mahsulotni tanlang · oylik yoki kunlik stavka",
+  "depositProducts": "Omonat mahsulotlari",
+  "fundFrom": "Mablag‘ manbasi",
+  "principalMajor": "Asosiy summa",
+  "pickMofoUser": "MOFOBank foydalanuvchisini tanlang",
+  "pickDestination": "Qabul qiluvchini tanlang",
+  "transferSubtitle": "Hisoblaringiz orasida yoki MOFOBank foydalanuvchisiga pul o‘tkazing",
+  "sendTransfer": "O‘tkazmani yuborish",
+  "from": "Qayerdan",
+  "sourceAccount": "Manba hisob",
+  "toMofoUser": "MOFOBank foydalanuvchisiga",
+  "betweenMyAccounts": "Hisoblarim orasida",
+  "recipient": "Qabul qiluvchi",
+  "destination": "Manzil",
+  "amountMajor": "Summa",
+  "budgeting": "Byudjet",
+  "incomeExpenses": "Daromad {income} · Xarajat {expenses}",
+  "@incomeExpenses": {
+    "placeholders": {
+      "income": {
+        "type": "String"
+      },
+      "expenses": {
+        "type": "String"
+      }
+    }
+  },
+  "cashflow": "Pul oqimi",
+  "cashflowSubtitle": "Toifalar qo‘shing - daromad xarajatdan ko‘p bo‘lsin.",
+  "inLabel": "Kirim",
+  "outLabel": "Chiqim",
+  "category": "Toifa",
+  "amountCurrencyMajor": "Summa ({code})",
+  "@amountCurrencyMajor": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "income": "Daromad",
+  "expense": "Xarajat",
+  "addItem": "Qo‘shish",
+  "loading": "Yuklanmoqda...",
+  "hideDetails": "Ma’lumotlarni yashirish",
+  "showCardNumber": "Karta raqamini ko‘rsatish",
+  "frozen": "MUZLATILGAN",
+  "cvvWarning": "CVV kodini hech kimga bermang.",
+  "openAccountsFirst": "Avval Hisoblar bo‘limida karta chiqaring",
+  "loadingYourCard": "Karta yuklanmoqda...",
+  "exploreCardChallenge": "Kartani o‘rganib, topshiriqni yakunlang",
+  "yourDebitCard": "Debet kartangiz",
+  "yourDebitCardSubtitle": "Balans eng kichik birliklarda saqlanadi. Aylantirish uchun bosing.",
+  "credit": "Kredit",
+  "interestPaid": "To‘langan foiz: {amount}",
+  "@interestPaid": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "minimumPaymentTrap": "Minimal to‘lov tuzog‘i",
+  "minimumPaymentTrapSubtitle": "Debet o‘z pulingizni, kredit esa foizli qarzni sarflaydi.",
+  "creditStartSummary": "Boshlanish: {amount}, yillik 22%, oyiga ~2% minimum",
+  "@creditStartSummary": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "paidOffMonths": "{count} oyda yopildi",
+  "@paidOffMonths": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "stillOpenMonths": "{count} oydan keyin ham qarz bor",
+  "@stillOpenMonths": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "depositsAndTax": "Omonatlar va soliq",
+  "compareTaxDrag": "Soliq ta’sirini solishtirib, topshiriqni yakunlang",
+  "marketPickedQuiz": "Bozor tanlandi · barcha savollarga javob bering",
+  "lodgementSandbox": "Omonat sinovi",
+  "lodgementSandboxSubtitle": "Asosiy summa va APY bir xil; faqat soliq farq qiladi.",
+  "principalApy": "Asosiy summa: {amount}, APY {apy}%",
+  "@principalApy": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "apy": {
+        "type": "String"
+      }
+    }
+  },
+  "homeNetTax": "Uy bozori sof daromadi {net} (soliq {tax})",
+  "@homeNetTax": {
+    "placeholders": {
+      "net": {
+        "type": "String"
+      },
+      "tax": {
+        "type": "String"
+      }
+    }
+  },
+  "lowestTaxDrag": "Eng past soliq",
+  "lowestTaxDragSubtitle": "Qaysi bozorda sof foiz daromadi yuqori?",
+  "couldNotLoadRate": "Valyuta kursini yuklab bo‘lmadi",
+  "fxSpreadDescription": "Konvertatsiya marjasi ({pair})",
+  "@fxSpreadDescription": {
+    "placeholders": {
+      "pair": {
+        "type": "String"
+      }
+    }
+  },
+  "updatingRate": "Kurs yangilanmoqda...",
+  "cachedRate": "Keshlangan kurs",
+  "liveRate": "Joriy kurs",
+  "exchange": "Ayirboshlash",
+  "exchangeSubtitle": "Valyutalarni kichik bank ustamasi bilan ayirboshlang.",
+  "amountCurrency": "Summa ({code})",
+  "@amountCurrency": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "convertTo": "Qaysi valyutaga",
+  "cashDispensed": "Naqd pul berildi - topshiriqni yakunlang",
+  "availableAmount": "Mavjud {amount}",
+  "@availableAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "dispense": "Berish",
+  "settle": "Yakunlash",
+  "withdrawCash": "Naqd pul olish",
+  "withdrawCashSubtitle": "Hamyondan summa va kupyura tanlash usulini belgilang.",
+  "notesInCassette": "Kassetadagi kupyuralar: {notes} {code}",
+  "@notesInCassette": {
+    "placeholders": {
+      "notes": {
+        "type": "String"
+      },
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "multiplesMax": "{step} ga karrali, maksimum {max}",
+  "@multiplesMax": {
+    "placeholders": {
+      "step": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "largeBills": "Katta kupyuralar",
+  "largeBillsSubtitle": "Avval eng katta nominallar",
+  "fewestNotes": "Eng kam kupyura",
+  "fewestNotesSubtitle": "Optimal kassetali tanlov",
+  "smallerNotes": "Kichik kupyuralar",
+  "smallerNotesSubtitle": "Xarajat uchun qaytimga qulay",
+  "noteCountBreakdown": "{count} kupyura - {breakdown}",
+  "@noteCountBreakdown": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "breakdown": {
+        "type": "String"
+      }
+    }
+  },
+  "cannotMakeAmount": "Bu usul bilan summani berib bo‘lmaydi",
+  "security": "Xavfsizlik",
+  "securityInitialStatus": "PIN o‘rnating, tekshiring va kartani muzlating",
+  "pinAndFreeze": "PIN va muzlatish",
+  "pinAndFreezeSubtitle": "PIN lokal xeshda saqlanadi. Muzlatish - karta belgisi.",
+  "pinSaved": "PIN saqlandi (xesh)",
+  "savePin": "PIN saqlash",
+  "verifyPin": "PIN tekshirish",
+  "pinVerified": "PIN tasdiqlandi",
+  "cardUnfrozen": "Karta eritildi",
+  "transfers": "O‘tkazmalar",
+  "p2pTransfer": "P2P o‘tkazma",
+  "transferPosted": "O‘tkazma ledgerga yozildi",
+  "validateThenSend": "IBAN va summani tekshirib yuboring",
+  "send": "Yuborish",
+  "simulatedP2p": "O‘quv P2P",
+  "simulatedP2pSubtitle": "IBAN tekshiruvi va ledger debeti.",
+  "beneficiaryIban": "Qabul qiluvchi IBAN",
+  "inventory": "Inventar",
+  "inventorySubtitle": "Boostlar ixtiyoriy. Asosiy darslar bepul.",
+  "inventorySummary": "Maslahatlar: {hints} · Qayta urinishlar: {retries} · Nishon: {badge}",
+  "@inventorySummary": {
+    "placeholders": {
+      "hints": {
+        "type": "int"
+      },
+      "retries": {
+        "type": "int"
+      },
+      "badge": {
+        "type": "String"
+      }
+    }
+  },
+  "on": "yoqilgan",
+  "off": "o‘chirilgan",
+  "buy": "Sotib olish",
+  "owned": "Sotib olingan",
+  "purchased": "Sotib olindi: {title}",
+  "@purchased": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "countryFlag": "{code} bayrog‘i",
+  "@countryFlag": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "confirmIdentity": "Shaxsingizni tasdiqlang",
+  "devicePinHelper": "4-6 raqam",
+  "savings": "Jamg‘arma",
+  "savingsGoals": "Jamg‘arma maqsadlari",
+  "savingsGoalsSubtitle": "Hamyondan to‘ldiring va jarayonni kuzating.",
+  "goalName": "Maqsad nomi",
+  "targetCurrencyMajor": "Maqsad ({code})",
+  "@targetCurrencyMajor": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "createGoal": "Maqsad yaratish",
+  "fundAmount": "{amount} qo‘shish",
+  "@fundAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "setPinLabel": "4-6 raqamli PIN o‘rnating",
+  "verify": "Tekshirish",
+  "freezePrimaryCard": "Asosiy kartani muzlatish",
+  "goalFunded": "Maqsad hamyondan to‘ldirildi",
+  "createThenFund": "Jamg‘arma yarating va to‘ldiring",
+  "goalPots": "Jamg‘armalar",
+  "emergencyPot": "Favqulodda zaxira",
+  "fundGoalDescription": "Maqsadni to‘ldirish: {title}",
+  "@fundGoalDescription": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "atmCashDescription": "Bankomat naqd puli: {pack} · {notes}",
+  "@atmCashDescription": {
+    "placeholders": {
+      "pack": {
+        "type": "String"
+      },
+      "notes": {
+        "type": "String"
+      }
+    }
+  },
+  "showingCachedRate": "Oxirgi ma’lum kurs ko‘rsatilmoqda",
+  "showingEstimatedRate": "Taxminiy kurs - saqlangan kurs yo‘q",
+  "ratesReady": "Kurslar tayyor",
+  "includesBankSpread": "Bank ustamasi bilan",
+  "youReceive": "Siz olasiz ≈ {amount}",
+  "@youReceive": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "walletAmount": "Hamyon: {amount}",
+  "@walletAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "cvvLabel": "CVV",
+  "boostHintTitle": "Maslahatlar to‘plami",
+  "boostHintDescription": "To‘g‘ri javobni bir marta yoritadi (3 ta maslahat).",
+  "boostRetryTitle": "Viktorinani qayta",
+  "boostRetryDescription": "Joriy viktorina javoblarini tozalaydi (1 marta).",
+  "boostBadgeTitle": "Teal nishon",
+  "boostBadgeDescription": "Bosh sahifadagi kosmetik nishon.",
+  "depositFlexTitle": "Flex Daily",
+  "depositFlexSubtitle": "Moslashuvchan omonat · har kuni foiz",
+  "depositSaverTitle": "Saver Daily",
+  "depositSaverSubtitle": "Yuqori kunlik stavka · hali likvid",
+  "depositTermTitle": "Term Monthly",
+  "depositTermSubtitle": "Klassik muddatli · oyiga to‘lov",
+  "depositPremiumTitle": "Premium Monthly",
+  "depositPremiumSubtitle": "Eng yaxshi oylik stavka · o‘quv demo",
+  "ratePerDay": "{pct}% / kun",
+  "@ratePerDay": {
+    "placeholders": {
+      "pct": {
+        "type": "String"
+      }
+    }
+  },
+  "ratePerMonth": "{pct}% / oy",
+  "@ratePerMonth": {
+    "placeholders": {
+      "pct": {
+        "type": "String"
+      }
+    }
+  },
+  "errorGeneric": "Xatolik yuz berdi: {error}",
+  "@errorGeneric": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgerWelcome": "Xush kelibsiz balansi",
+  "ledgerDepositOpened": "Omonat ochildi",
+  "ledgerOpenDeposit": "Omonat ochish: {title}",
+  "@ledgerOpenDeposit": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgerAccrued": "Hisoblandi: {title}",
+  "@ledgerAccrued": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgerLevelStipend": "{level}-daraja stipendiyasi",
+  "@ledgerLevelStipend": {
+    "placeholders": {
+      "level": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgerBoost": "Boost: {title}",
+  "@ledgerBoost": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgerTransferOut": "Chiquvchi o‘tkazma",
+  "ledgerTransferIn": "Kiruvchi o‘tkazma",
+  "ledgerP2pTo": "P2P @{handle} ga",
+  "@ledgerP2pTo": {
+    "placeholders": {
+      "handle": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgerMissionSettle": "{title} yakuni ({percent}%)",
+  "@ledgerMissionSettle": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgerFxSpread": "FX ustama ({pair})",
+  "@ledgerFxSpread": {
+    "placeholders": {
+      "pair": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgerAtmCash": "Bankomat {pack} · {notes}",
+  "@ledgerAtmCash": {
+    "placeholders": {
+      "pack": {
+        "type": "String"
+      },
+      "notes": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgerGoalFund": "Maqsadni to‘ldirish: {title}",
+  "@ledgerGoalFund": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgerTypeStipend": "Stipendiya",
+  "ledgerTypeMission": "Missiya",
+  "ledgerTypeTransferOut": "Chiquvchi",
+  "ledgerTypeTransferIn": "Kiruvchi",
+  "ledgerTypeFx": "FX",
+  "ledgerTypeAtm": "Bankomat",
+  "ledgerTypeBoost": "Boost",
+  "ledgerTypeGoal": "Maqsad",
+  "ledgerTypeDepositInterest": "Omonat foizi",
+  "ledgerTypeCreditCharge": "Kredit yechimi",
+  "ledgerTypeCreditPayment": "Kredit to‘lovi",
+  "ledgerTypeOther": "Boshqa",
+  "accountMainWallet": "Asosiy hamyon",
+  "cardDebitPrimary": "Debet · Asosiy",
+  "errorNotOnboarded": "Avval onboardingni yakunlang",
+  "errorPrincipalPositive": "Omonat summasi musbat bo‘lishi kerak",
+  "errorAmountPositive": "Summa musbat bo‘lishi kerak",
+  "errorInsufficientFunds": "Mablag‘ yetarli emas",
+  "errorInsufficientFundsBoost": "Bu boost uchun mablag‘ yetarli emas",
+  "errorChooseDifferentAccounts": "Turli hisoblarni tanlang",
+  "errorCrossCurrency": "Demo’da valyutalararo o‘tkazma qo‘llab-quvvatlanmaydi",
+  "errorSourceCardFrozen": "Manba karta muzlatilgan",
+  "errorUserNotFound": "MOFOBank foydalanuvchisi @{handle} topilmadi",
+  "@errorUserNotFound": {
+    "placeholders": {
+      "handle": {
+        "type": "String"
+      }
+    }
+  },
+  "errorCardTokenNotFound": "Karta ma’lumotlari omborda topilmadi",
+  "errorInvalidDepositProduct": "Noma’lum omonat mahsuloti",
+  "errorInvalidAccountNameKey": "Noma’lum hisob nomi kaliti",
+  "errorInvalidLedgerType": "Noma’lum ledger turi",
+  "errorInvalidLedgerDescription": "Noma’lum ledger tavsifi kaliti",
+  "errorInvalidAtmPack": "Noma’lum bankomat kupyura to‘plami",
+  "errorCurrencyMismatch": "Valyutalar mos kelmaydi",
+  "errorUnknown": "Xatolik yuz berdi"
+}

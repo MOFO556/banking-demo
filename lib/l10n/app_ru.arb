@@ -1,0 +1,853 @@
+{
+  "@@locale": "ru",
+  "appTitle": "MOFOBank",
+  "navHome": "Главная",
+  "navMissions": "Задания",
+  "navAccounts": "Счета",
+  "navWallet": "Кошелёк",
+  "settings": "Настройки",
+  "settingsSession": "Сессия",
+  "settingsAppearance": "Оформление",
+  "settingsLanguage": "Язык",
+  "settingsTheme": "Тема",
+  "themeDark": "Тёмная",
+  "themeLight": "Светлая",
+  "themeSystem": "Системная",
+  "langEn": "English",
+  "langRu": "Русский",
+  "langUz": "O'zbekcha",
+  "biometricUnlock": "Вход по биометрии",
+  "biometricAvailable": "Отпечаток / лицо на экране блокировки (PIN тоже работает)",
+  "biometricUnavailable": "Недоступно на этом устройстве",
+  "lockApp": "Заблокировать",
+  "createNewAccount": "Создать новый аккаунт",
+  "wipeSubtitle": "Стереть локальные данные и пройти онбординг заново",
+  "wipeTitle": "Стереть профиль на устройстве?",
+  "wipeBody": "Задания, кошелёк, карты и вклады на этом устройстве будут удалены.",
+  "cancel": "Отмена",
+  "wipe": "Стереть",
+  "shop": "Магазин",
+  "boostStore": "Магазин бустов",
+  "lockTitle": "MOFOBank",
+  "welcomeBack": "С возвращением",
+  "hiUser": "Привет, {name}",
+  "pinLabel": "PIN",
+  "pinHelper": "4-6 цифр",
+  "unlock": "Разблокировать",
+  "useBiometrics": "Биометрия",
+  "enableBiometricsHint": "Включите биометрию в Настройках для входа отпечатком / лицом.",
+  "wrongPin": "Неверный PIN",
+  "enterPin": "Введите PIN (4-6 цифр)",
+  "bioCancelled": "Биометрия отменена - введите PIN",
+  "onboardingBlurb": "Создайте банковский профиль. В следующий раз вход по PIN или биометрии.",
+  "displayName": "Отображаемое имя",
+  "handleLabel": "Никнейм MOFOBank (@)",
+  "handleHelper": "Для P2P-переводов",
+  "appPin": "PIN приложения",
+  "confirmPin": "Подтвердите PIN",
+  "confirmPinHelper": "Повторите те же 4-6 цифр",
+  "unlockWithBiometrics": "Вход по биометрии",
+  "unlockWithBiometricsSub": "Отпечаток или лицо на поддерживаемых телефонах",
+  "homeMarket": "Домашний рынок",
+  "openMyWallet": "Открыть кошелёк",
+  "pinMustBe4or6": "PIN должен состоять из 4-6 цифр",
+  "pinMismatch": "Подтверждение PIN не совпадает",
+  "missionSettled": "Задание завершено",
+  "performance": "Результат",
+  "stake": "Ставка",
+  "paidToWallet": "Зачислено",
+  "xp": "XP",
+  "continueBtn": "Продолжить",
+  "challengeProgress": "Вопрос {current} / {total}",
+  "answeredCount": "Отвечено: {count}",
+  "previous": "Назад",
+  "next": "Далее",
+  "hint": "Подсказка ({count})",
+  "retry": "Повтор ({count})",
+  "settleMission": "Закрыть задание",
+  "missionCompleted": "Завершено",
+  "missionCompletedHint": "Задание пройдено. Повтор даёт половину макс. ставки — только деньги, без XP.",
+  "replayMission": "Повтор за полставки",
+  "missionReplaySettled": "Повтор засчитан",
+  "missionsReplayAvailable": "Повтор · полставки",
+  "ledgerMissionReplay": "{title} повтор ({percent}%)",
+  "@ledgerMissionReplay": {
+    "placeholders": {
+      "title": {"type": "String"},
+      "percent": {"type": "String"}
+    }
+  },
+
+  "walletTitle": "Кошелёк и RPG",
+  "balance": "Баланс",
+  "balanceSubtitle": "Деньги на счёте.",
+  "ledger": "Транзакции",
+  "ledgerSubtitle": "Кредиты · дебеты",
+  "level": "Уровень",
+  "efficiency": "Эффективность",
+  "efficiencyScore": "Эффективность: {score}",
+  "missionsTitle": "Задания",
+  "accountsTitle": "Счета",
+  "completeOnboarding": "Завершите онбординг",
+  "errorPrefix": "Ошибка: {error}",
+  "tealBadge": "бейдж",
+  "allMissionsComplete": "Все задания пройдены - свободные инструменты доступны всегда.",
+  "quickTools": "Быстрые инструменты",
+  "missionCardsTitle": "Карты и основы денег",
+  "missionCardsSubtitle": "Как хранятся балансы и как устроена карта",
+  "missionDepositsTitle": "Вклады и налог",
+  "missionDepositsSubtitle": "APY, проценты и удержание налога по странам",
+  "missionFxTitle": "FX и валюта",
+  "missionFxSubtitle": "Курсы валют, конвертация и банковская наценка",
+  "missionAtmTitle": "Наличные в банкомате",
+  "missionAtmSubtitle": "Выдача купюр - крупные, минимум купюр или мелкими",
+  "missionBudgetingTitle": "Бюджет и кэшфлоу",
+  "missionBudgetingSubtitle": "Категории, доходы, расходы и графики",
+  "missionTransfersTitle": "Переводы и IBAN",
+  "missionTransfersSubtitle": "P2P и UX валидации",
+  "missionCreditTitle": "Кредит vs дебет",
+  "missionCreditSubtitle": "Проценты и ловушка минимального платежа",
+  "missionSecurityTitle": "Мошенничество и безопасность",
+  "missionSecuritySubtitle": "PIN, заморозка и фишинг",
+  "missionSavingsTitle": "Цели накоплений",
+  "missionSavingsSubtitle": "Копилки и прогресс",
+  "marketRu": "Россия",
+  "marketUs": "США",
+  "marketEu": "Еврозона",
+  "marketUk": "Великобритания",
+  "marketUz": "Узбекистан",
+  "marketJp": "Япония",
+  "marketTr": "Турция",
+  "marketKz": "Казахстан",
+  "@hiUser": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@challengeProgress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "@answeredCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@hint": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@retry": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@efficiencyScore": {
+    "placeholders": {
+      "score": {
+        "type": "String"
+      }
+    }
+  },
+  "@errorPrefix": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "quiz_cards_0_prompt": "What should a bank app store for a card at rest?",
+  "quiz_cards_0_opt0": "Full PAN + CVV in plaintext",
+  "quiz_cards_0_opt1": "A token / reference - never raw CVV",
+  "quiz_cards_0_opt2": "Only the cardholder selfie",
+  "quiz_cards_0_opt3": "The magnetic stripe image",
+  "quiz_cards_1_prompt": "Balances in MOFOBank are best stored as...",
+  "quiz_cards_1_opt0": "Floating-point dollars",
+  "quiz_cards_1_opt1": "Integer minor units (cents / kopecks)",
+  "quiz_cards_1_opt2": "Formatted strings like \"$12.00\"",
+  "quiz_cards_1_opt3": "Blockchain hashes only",
+  "quiz_cards_2_prompt": "Where does the CVV usually live on a physical card?",
+  "quiz_cards_2_opt0": "Front, next to the chip",
+  "quiz_cards_2_opt1": "Back, near the signature strip",
+  "quiz_cards_2_opt2": "Inside the chip only",
+  "quiz_cards_2_opt3": "Printed on the receipt",
+  "quiz_cards_3_prompt": "Why freeze a card in the app?",
+  "quiz_cards_3_opt0": "To earn more interest",
+  "quiz_cards_3_opt1": "To block new spend if lost or stolen",
+  "quiz_cards_3_opt2": "To change your IBAN",
+  "quiz_cards_3_opt3": "To reset FX markup",
+  "quiz_deposits_0_prompt": "Gross interest before tax is...",
+  "quiz_deposits_0_opt0": "Principal × APY",
+  "quiz_deposits_0_opt1": "Principal - APY",
+  "quiz_deposits_0_opt2": "Tax × APY",
+  "quiz_deposits_0_opt3": "Always zero",
+  "quiz_deposits_1_prompt": "Withholding tax on deposit interest means...",
+  "quiz_deposits_1_opt0": "The bank pays you more",
+  "quiz_deposits_1_opt1": "Part of interest is taken before you receive it",
+  "quiz_deposits_1_opt2": "Your principal is frozen",
+  "quiz_deposits_1_opt3": "FX rates get cheaper",
+  "quiz_deposits_2_prompt": "If two countries share the same APY, who nets more interest?",
+  "quiz_deposits_2_opt0": "The higher tax rate",
+  "quiz_deposits_2_opt1": "The lower tax rate",
+  "quiz_deposits_2_opt2": "Always the Eurozone",
+  "quiz_deposits_2_opt3": "It never differs",
+  "quiz_deposits_3_prompt": "APY is closest to...",
+  "quiz_deposits_3_opt0": "Annual percentage yield on the deposit",
+  "quiz_deposits_3_opt1": "A one-time ATM fee",
+  "quiz_deposits_3_opt2": "Your credit score",
+  "quiz_deposits_3_opt3": "The card CVV",
+  "quiz_fx_0_prompt": "Mid-market FX rate is...",
+  "quiz_fx_0_opt0": "The rate banks usually charge retail clients",
+  "quiz_fx_0_opt1": "A reference rate between buy and sell",
+  "quiz_fx_0_opt2": "Always equal to 1.0",
+  "quiz_fx_0_opt3": "Only used for cash ATMs",
+  "quiz_fx_1_prompt": "A bank markup / spread means you typically...",
+  "quiz_fx_1_opt0": "Get a better rate than mid-market",
+  "quiz_fx_1_opt1": "Pay worse than mid-market",
+  "quiz_fx_1_opt2": "Avoid all fees forever",
+  "quiz_fx_1_opt3": "Lock tax rates",
+  "quiz_fx_2_prompt": "Holding foreign currency can change value because...",
+  "quiz_fx_2_opt0": "Exchange rates move over time",
+  "quiz_fx_2_opt1": "PINs expire daily",
+  "quiz_fx_2_opt2": "IBANs reset monthly",
+  "quiz_fx_2_opt3": "Cards cannot freeze",
+  "quiz_fx_3_prompt": "If the app is offline, a good FX feature should...",
+  "quiz_fx_3_opt0": "Crash immediately",
+  "quiz_fx_3_opt1": "Use a cached or fallback rate and say so",
+  "quiz_fx_3_opt2": "Invent random rates silently",
+  "quiz_fx_3_opt3": "Delete your wallet",
+  "quiz_atm_0_prompt": "You cannot withdraw more cash than...",
+  "quiz_atm_0_opt0": "Your available wallet balance (and ATM limits)",
+  "quiz_atm_0_opt1": "Yesterday’s FX mid-market",
+  "quiz_atm_0_opt2": "Your credit APR × 12",
+  "quiz_atm_0_opt3": "The number of missions completed",
+  "quiz_atm_1_prompt": "“Large bills” at an ATM usually means...",
+  "quiz_atm_1_opt0": "Prefer higher-denomination notes",
+  "quiz_atm_1_opt1": "Only coins are dispensed",
+  "quiz_atm_1_opt2": "Always empty the cassette",
+  "quiz_atm_1_opt3": "Ignore your balance",
+  "quiz_atm_2_prompt": "Why might two ATM dispense options show different note mixes?",
+  "quiz_atm_2_opt0": "Different note-picking strategies / machine settings",
+  "quiz_atm_2_opt1": "Because IBANs differ",
+  "quiz_atm_2_opt2": "Because CVV changes",
+  "quiz_atm_2_opt3": "Random wallpaper themes",
+  "quiz_atm_3_prompt": "Cash withdrawals typically...",
+  "quiz_atm_3_opt0": "Increase your deposit APY",
+  "quiz_atm_3_opt1": "Reduce the money left in your account",
+  "quiz_atm_3_opt2": "Create foreign tax credits automatically",
+  "quiz_atm_3_opt3": "Unlock phishing links",
+  "quiz_budgeting_0_prompt": "Positive cashflow means...",
+  "quiz_budgeting_0_opt0": "Expenses exceed income",
+  "quiz_budgeting_0_opt1": "Income exceeds expenses",
+  "quiz_budgeting_0_opt2": "Balance is exactly zero",
+  "quiz_budgeting_0_opt3": "You only use credit",
+  "quiz_budgeting_1_prompt": "Categorizing spend helps you...",
+  "quiz_budgeting_1_opt0": "See where money goes",
+  "quiz_budgeting_1_opt1": "Change the mid-market FX feed",
+  "quiz_budgeting_1_opt2": "Reset your PIN automatically",
+  "quiz_budgeting_1_opt3": "Skip KYC forever",
+  "quiz_budgeting_2_prompt": "A budget chart is most useful when...",
+  "quiz_budgeting_2_opt0": "You have both income and expense entries",
+  "quiz_budgeting_2_opt1": "You hide all numbers",
+  "quiz_budgeting_2_opt2": "You only track one ATM fee",
+  "quiz_budgeting_2_opt3": "You never save",
+  "quiz_transfers_0_prompt": "A valid IBAN-like id usually starts with...",
+  "quiz_transfers_0_opt0": "Two letters (country) + check digits",
+  "quiz_transfers_0_opt1": "Only emoji",
+  "quiz_transfers_0_opt2": "Your CVV",
+  "quiz_transfers_0_opt3": "A random GUID with spaces only",
+  "quiz_transfers_1_prompt": "Before sending a transfer the app should check...",
+  "quiz_transfers_1_opt0": "Format + sufficient funds",
+  "quiz_transfers_1_opt1": "Only the weather",
+  "quiz_transfers_1_opt2": "Only your XP level",
+  "quiz_transfers_1_opt3": "Nothing - send immediately",
+  "quiz_transfers_2_prompt": "A ledger debit for a transfer should be...",
+  "quiz_transfers_2_opt0": "Negative amount out of your wallet",
+  "quiz_transfers_2_opt1": "Always positive interest",
+  "quiz_transfers_2_opt2": "Stored as a floating string",
+  "quiz_transfers_2_opt3": "Written to the CVV field",
+  "quiz_transfers_3_prompt": "Idempotency keys help prevent...",
+  "quiz_transfers_3_opt0": "Double-posting the same transfer",
+  "quiz_transfers_3_opt1": "Emoji flags on Windows",
+  "quiz_transfers_3_opt2": "Card flip animations",
+  "quiz_transfers_3_opt3": "Deposit APY",
+  "quiz_credit_0_prompt": "Paying only the minimum on a credit balance often...",
+  "quiz_credit_0_opt0": "Maximizes interest paid over time",
+  "quiz_credit_0_opt1": "Deletes the debt instantly",
+  "quiz_credit_0_opt2": "Raises deposit APY",
+  "quiz_credit_0_opt3": "Removes FX markup",
+  "quiz_credit_1_prompt": "Debit cards spend...",
+  "quiz_credit_1_opt0": "Your own account money",
+  "quiz_credit_1_opt1": "Only the bank’s money forever",
+  "quiz_credit_1_opt2": "Unrelated IBANs",
+  "quiz_credit_1_opt3": "Cached FX rates",
+  "quiz_credit_2_prompt": "APR on credit is closest to...",
+  "quiz_credit_2_opt0": "Annual cost of borrowing",
+  "quiz_credit_2_opt1": "Your card’s CVV",
+  "quiz_credit_2_opt2": "ATM cassette capacity",
+  "quiz_credit_2_opt3": "Mission XP",
+  "quiz_security_0_prompt": "A good way to store a PIN locally is...",
+  "quiz_security_0_opt0": "Plain text in a screenshot",
+  "quiz_security_0_opt1": "A salted hash - never the raw PIN",
+  "quiz_security_0_opt2": "Inside the card PAN field",
+  "quiz_security_0_opt3": "In the FX cache table",
+  "quiz_security_1_prompt": "A phishing SMS with a lookalike domain should be...",
+  "quiz_security_1_opt0": "Opened immediately",
+  "quiz_security_1_opt1": "Ignored / reported - do not tap",
+  "quiz_security_1_opt2": "Forwarded with your CVV",
+  "quiz_security_1_opt3": "Used to reset APY",
+  "quiz_security_2_prompt": "Freezing a card is useful when...",
+  "quiz_security_2_opt0": "You suspect loss or theft",
+  "quiz_security_2_opt1": "You want higher interest",
+  "quiz_security_2_opt2": "You change home markets",
+  "quiz_security_2_opt3": "You complete a budget pie chart",
+  "quiz_security_3_prompt": "MOFOBank never asks you for...",
+  "quiz_security_3_opt0": "Real bank credentials / KYC documents",
+  "quiz_security_3_opt1": "A display name",
+  "quiz_security_3_opt2": "A home market",
+  "quiz_security_3_opt3": "Quiz answers",
+  "quiz_savings_0_prompt": "Funding a savings pot typically...",
+  "quiz_savings_0_opt0": "Moves money from your wallet into the goal",
+  "quiz_savings_0_opt1": "Prints cash at the ATM",
+  "quiz_savings_0_opt2": "Increases FX markup",
+  "quiz_savings_0_opt3": "Unlocks phishing links",
+  "quiz_savings_1_prompt": "A progress ring on a goal shows...",
+  "quiz_savings_1_opt0": "Saved amount vs target",
+  "quiz_savings_1_opt1": "Your CVV",
+  "quiz_savings_1_opt2": "Live mid-market only",
+  "quiz_savings_1_opt3": "Credit APR",
+  "quiz_savings_2_prompt": "Why separate goal pots from spending money?",
+  "quiz_savings_2_opt0": "Makes intentions visible and harder to overspend casually",
+  "quiz_savings_2_opt1": "Deletes the ledger",
+  "quiz_savings_2_opt2": "Removes tax forever",
+  "quiz_savings_2_opt3": "Disables transfers",
+  "lockTooltip": "Заблокировать",
+  "learnerDefault": "Ученик",
+  "marketTaxSummary": "{code} · НДС ~{rate}%",
+  "@marketTaxSummary": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      },
+      "rate": {
+        "type": "String"
+      }
+    }
+  },
+  "continueLearning": "Продолжить обучение",
+  "continueLearningSubtitle": "Задания открываются по порядку; песочницы остаются доступны.",
+  "card": "Карта",
+  "fx": "Валюта",
+  "atm": "Банкомат",
+  "transfer": "Перевод",
+  "boosts": "Бусты",
+  "wipeAndCreate": "Стереть и создать",
+  "yourPots": "Ваши счета",
+  "yourPotsSubtitle": "Кошелёк, карты и вклады на этом устройстве.",
+  "cards": "Карты",
+  "cardLabel": "Название карты",
+  "virtualDebit": "Виртуальная дебетовая",
+  "issueNewCard": "Выпустить карту",
+  "deposits": "Вклады",
+  "openDeposit": "Открыть вклад",
+  "transferMoney": "Перевести деньги",
+  "create": "Создать",
+  "couldNotLoadCard": "Не удалось загрузить данные карты",
+  "cardNotFound": "Карта не найдена",
+  "loadingCardDetails": "Загрузка данных карты...",
+  "cardFrozen": "Карта заморожена",
+  "tapCardToFlip": "Нажмите на карту, чтобы перевернуть",
+  "unfreezeCard": "Разморозить карту",
+  "freezeCard": "Заморозить карту",
+  "yourCard": "Ваша карта",
+  "yourCardSubtitle": "Переверните карту. Данные скрыты до показа.",
+  "pickDepositProduct": "Выберите продукт · ежемесячная или ежедневная ставка",
+  "depositProducts": "Вкладные продукты",
+  "fundFrom": "Списать со счёта",
+  "principalMajor": "Сумма вклада",
+  "pickMofoUser": "Выберите пользователя MOFOBank",
+  "pickDestination": "Выберите получателя",
+  "transferSubtitle": "Переводите между своими счетами или пользователю MOFOBank",
+  "sendTransfer": "Отправить перевод",
+  "from": "Откуда",
+  "sourceAccount": "Счёт списания",
+  "toMofoUser": "Пользователю MOFOBank",
+  "betweenMyAccounts": "Между моими счетами",
+  "recipient": "Получатель",
+  "destination": "Счёт назначения",
+  "amountMajor": "Сумма",
+  "budgeting": "Бюджет",
+  "incomeExpenses": "Доходы {income} · Расходы {expenses}",
+  "@incomeExpenses": {
+    "placeholders": {
+      "income": {
+        "type": "String"
+      },
+      "expenses": {
+        "type": "String"
+      }
+    }
+  },
+  "cashflow": "Денежный поток",
+  "cashflowSubtitle": "Добавьте категории - стремитесь к доходам выше расходов.",
+  "inLabel": "Вход",
+  "outLabel": "Выход",
+  "category": "Категория",
+  "amountCurrencyMajor": "Сумма ({code})",
+  "@amountCurrencyMajor": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "income": "Доход",
+  "expense": "Расход",
+  "addItem": "Добавить",
+  "loading": "Загрузка...",
+  "hideDetails": "Скрыть данные",
+  "showCardNumber": "Показать номер карты",
+  "frozen": "ЗАМОРОЖЕНА",
+  "cvvWarning": "Никому не сообщайте CVV.",
+  "openAccountsFirst": "Сначала выпустите карту в разделе «Счета»",
+  "loadingYourCard": "Загрузка карты...",
+  "exploreCardChallenge": "Изучите карту и завершите задание",
+  "yourDebitCard": "Ваша дебетовая карта",
+  "yourDebitCardSubtitle": "Баланс хранится в целых минимальных единицах. Нажмите, чтобы перевернуть.",
+  "credit": "Кредит",
+  "interestPaid": "Уплачено процентов: {amount}",
+  "@interestPaid": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "minimumPaymentTrap": "Ловушка минимального платежа",
+  "minimumPaymentTrapSubtitle": "Дебет тратит ваши деньги, кредит - заёмные с процентами.",
+  "creditStartSummary": "Начало: {amount} под 22% годовых, минимум ~2%/мес.",
+  "@creditStartSummary": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "paidOffMonths": "Погашено за {count} мес.",
+  "@paidOffMonths": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "stillOpenMonths": "Долг остался через {count} мес.",
+  "@stillOpenMonths": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "depositsAndTax": "Вклады и налог",
+  "compareTaxDrag": "Сравните налоги и завершите задание",
+  "marketPickedQuiz": "Рынок выбран · ответьте на все вопросы",
+  "lodgementSandbox": "Песочница вкладов",
+  "lodgementSandboxSubtitle": "Одинаковые сумма и APY; отличается только налог.",
+  "principalApy": "Сумма: {amount} под {apy}% APY",
+  "@principalApy": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "apy": {
+        "type": "String"
+      }
+    }
+  },
+  "homeNetTax": "Чистый доход дома: {net} (налог {tax})",
+  "@homeNetTax": {
+    "placeholders": {
+      "net": {
+        "type": "String"
+      },
+      "tax": {
+        "type": "String"
+      }
+    }
+  },
+  "lowestTaxDrag": "Минимальный налог",
+  "lowestTaxDragSubtitle": "Где чистый процентный доход выше?",
+  "couldNotLoadRate": "Не удалось загрузить курс",
+  "fxSpreadDescription": "Маржа конвертации ({pair})",
+  "@fxSpreadDescription": {
+    "placeholders": {
+      "pair": {
+        "type": "String"
+      }
+    }
+  },
+  "updatingRate": "Обновление курса...",
+  "cachedRate": "Кэшированный курс",
+  "liveRate": "Текущий курс",
+  "exchange": "Обмен",
+  "exchangeSubtitle": "Конвертация валют с небольшой банковской маржой.",
+  "amountCurrency": "Сумма ({code})",
+  "@amountCurrency": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "convertTo": "Конвертировать в",
+  "cashDispensed": "Наличные выданы - завершите задание",
+  "availableAmount": "Доступно {amount}",
+  "@availableAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "dispense": "Выдать",
+  "settle": "Завершить",
+  "withdrawCash": "Снять наличные",
+  "withdrawCashSubtitle": "Выберите сумму и способ подбора купюр.",
+  "notesInCassette": "Купюры в кассете: {notes} {code}",
+  "@notesInCassette": {
+    "placeholders": {
+      "notes": {
+        "type": "String"
+      },
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "multiplesMax": "Кратно {step}, максимум {max}",
+  "@multiplesMax": {
+    "placeholders": {
+      "step": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "largeBills": "Крупные купюры",
+  "largeBillsSubtitle": "Сначала самые крупные номиналы",
+  "fewestNotes": "Минимум купюр",
+  "fewestNotesSubtitle": "Оптимальный набор кассеты",
+  "smallerNotes": "Мелкие купюры",
+  "smallerNotesSubtitle": "Удобно для последующих покупок",
+  "noteCountBreakdown": "{count} купюр - {breakdown}",
+  "@noteCountBreakdown": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "breakdown": {
+        "type": "String"
+      }
+    }
+  },
+  "cannotMakeAmount": "Эту сумму нельзя выдать выбранным способом",
+  "security": "Безопасность",
+  "securityInitialStatus": "Задайте PIN, проверьте его и заморозьте карту",
+  "pinAndFreeze": "PIN и заморозка",
+  "pinAndFreezeSubtitle": "PIN хранится как хеш. Заморозка - локальный флаг карты.",
+  "pinSaved": "PIN сохранён (хеш)",
+  "savePin": "Сохранить PIN",
+  "verifyPin": "Проверить PIN",
+  "pinVerified": "PIN подтверждён",
+  "cardUnfrozen": "Карта разморожена",
+  "transfers": "Переводы",
+  "p2pTransfer": "P2P-перевод",
+  "transferPosted": "Перевод записан в леджер",
+  "validateThenSend": "Проверьте IBAN и сумму, затем отправьте",
+  "send": "Отправить",
+  "simulatedP2p": "Учебный P2P",
+  "simulatedP2pSubtitle": "Проверка IBAN и списание в леджере.",
+  "beneficiaryIban": "IBAN получателя",
+  "inventory": "Инвентарь",
+  "inventorySubtitle": "Бусты необязательны. Основные уроки бесплатны.",
+  "inventorySummary": "Подсказки: {hints} · Повторы: {retries} · Значок: {badge}",
+  "@inventorySummary": {
+    "placeholders": {
+      "hints": {
+        "type": "int"
+      },
+      "retries": {
+        "type": "int"
+      },
+      "badge": {
+        "type": "String"
+      }
+    }
+  },
+  "on": "вкл.",
+  "off": "выкл.",
+  "buy": "Купить",
+  "owned": "Куплено",
+  "purchased": "Куплено: {title}",
+  "@purchased": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "countryFlag": "Флаг: {code}",
+  "@countryFlag": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "confirmIdentity": "Подтвердите личность",
+  "devicePinHelper": "4-6 цифр",
+  "savings": "Накопления",
+  "savingsGoals": "Цели накоплений",
+  "savingsGoalsSubtitle": "Пополняйте из кошелька и следите за прогрессом.",
+  "goalName": "Название цели",
+  "targetCurrencyMajor": "Цель ({code})",
+  "@targetCurrencyMajor": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "createGoal": "Создать цель",
+  "fundAmount": "Пополнить на {amount}",
+  "@fundAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "setPinLabel": "Задайте PIN из 4-6 цифр",
+  "verify": "Проверить",
+  "freezePrimaryCard": "Заморозить основную карту",
+  "goalFunded": "Цель пополнена из кошелька",
+  "createThenFund": "Создайте копилку и пополните её",
+  "goalPots": "Копилки",
+  "emergencyPot": "Резерв",
+  "fundGoalDescription": "Пополнение цели: {title}",
+  "@fundGoalDescription": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "atmCashDescription": "Наличные в банкомате: {pack} · {notes}",
+  "@atmCashDescription": {
+    "placeholders": {
+      "pack": {
+        "type": "String"
+      },
+      "notes": {
+        "type": "String"
+      }
+    }
+  },
+  "showingCachedRate": "Показан последний известный курс",
+  "showingEstimatedRate": "Оценочный курс - сохранённого нет",
+  "ratesReady": "Курсы готовы",
+  "includesBankSpread": "С учётом банковской маржи",
+  "youReceive": "Вы получите ≈ {amount}",
+  "@youReceive": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "walletAmount": "Кошелёк: {amount}",
+  "@walletAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "cvvLabel": "CVV",
+  "boostHintTitle": "Пакет подсказок",
+  "boostHintDescription": "Один раз подсвечивает правильный ответ (3 подсказки).",
+  "boostRetryTitle": "Повтор квиза",
+  "boostRetryDescription": "Сбрасывает ответы текущего квиза (1 использование).",
+  "boostBadgeTitle": "Teal-бейдж",
+  "boostBadgeDescription": "Косметический бейдж на главной.",
+  "depositFlexTitle": "Flex Daily",
+  "depositFlexSubtitle": "Гибкий вклад · проценты каждый день",
+  "depositSaverTitle": "Saver Daily",
+  "depositSaverSubtitle": "Выше дневная ставка · всё ещё ликвидный",
+  "depositTermTitle": "Term Monthly",
+  "depositTermSubtitle": "Классический срочный · выплата раз в месяц",
+  "depositPremiumTitle": "Premium Monthly",
+  "depositPremiumSubtitle": "Лучшая месячная ставка · учебный демо",
+  "ratePerDay": "{pct}% / день",
+  "@ratePerDay": {
+    "placeholders": {
+      "pct": {
+        "type": "String"
+      }
+    }
+  },
+  "ratePerMonth": "{pct}% / месяц",
+  "@ratePerMonth": {
+    "placeholders": {
+      "pct": {
+        "type": "String"
+      }
+    }
+  },
+  "errorGeneric": "Что-то пошло не так: {error}",
+  "@errorGeneric": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgerWelcome": "Приветственный баланс",
+  "ledgerDepositOpened": "Вклад открыт",
+  "ledgerOpenDeposit": "Открытие вклада: {title}",
+  "@ledgerOpenDeposit": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgerAccrued": "Начислено: {title}",
+  "@ledgerAccrued": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgerLevelStipend": "Стипендия за уровень {level}",
+  "@ledgerLevelStipend": {
+    "placeholders": {
+      "level": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgerBoost": "Буст: {title}",
+  "@ledgerBoost": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgerTransferOut": "Исходящий перевод",
+  "ledgerTransferIn": "Входящий перевод",
+  "ledgerP2pTo": "P2P для @{handle}",
+  "@ledgerP2pTo": {
+    "placeholders": {
+      "handle": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgerMissionSettle": "Итог «{title}» ({percent}%)",
+  "@ledgerMissionSettle": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgerFxSpread": "Маржа FX ({pair})",
+  "@ledgerFxSpread": {
+    "placeholders": {
+      "pair": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgerAtmCash": "Банкомат {pack} · {notes}",
+  "@ledgerAtmCash": {
+    "placeholders": {
+      "pack": {
+        "type": "String"
+      },
+      "notes": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgerGoalFund": "Пополнение цели: {title}",
+  "@ledgerGoalFund": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgerTypeStipend": "Стипендия",
+  "ledgerTypeMission": "Задание",
+  "ledgerTypeTransferOut": "Исходящий",
+  "ledgerTypeTransferIn": "Входящий",
+  "ledgerTypeFx": "Валюта",
+  "ledgerTypeAtm": "Банкомат",
+  "ledgerTypeBoost": "Буст",
+  "ledgerTypeGoal": "Цель",
+  "ledgerTypeDepositInterest": "Проценты по вкладу",
+  "ledgerTypeCreditCharge": "Кредитное списание",
+  "ledgerTypeCreditPayment": "Платёж по кредиту",
+  "ledgerTypeOther": "Прочее",
+  "accountMainWallet": "Основной кошелёк",
+  "cardDebitPrimary": "Дебет · Основная",
+  "errorNotOnboarded": "Сначала завершите онбординг",
+  "errorPrincipalPositive": "Сумма вклада должна быть положительной",
+  "errorAmountPositive": "Сумма должна быть положительной",
+  "errorInsufficientFunds": "Недостаточно средств",
+  "errorInsufficientFundsBoost": "Недостаточно средств для этого буста",
+  "errorChooseDifferentAccounts": "Выберите разные счета",
+  "errorCrossCurrency": "Перевод между валютами в демо не поддерживается",
+  "errorSourceCardFrozen": "Карта списания заморожена",
+  "errorUserNotFound": "Пользователь MOFOBank @{handle} не найден",
+  "@errorUserNotFound": {
+    "placeholders": {
+      "handle": {
+        "type": "String"
+      }
+    }
+  },
+  "errorCardTokenNotFound": "Данные карты не найдены в хранилище",
+  "errorInvalidDepositProduct": "Неизвестный вклад",
+  "errorInvalidAccountNameKey": "Неизвестный ключ названия счёта",
+  "errorInvalidLedgerType": "Неизвестный тип записи леджера",
+  "errorInvalidLedgerDescription": "Неизвестный ключ описания леджера",
+  "errorInvalidAtmPack": "Неизвестный набор купюр",
+  "errorCurrencyMismatch": "Валюты не совпадают",
+  "errorUnknown": "Что-то пошло не так"
+}
